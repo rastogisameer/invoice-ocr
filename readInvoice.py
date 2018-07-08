@@ -96,45 +96,45 @@ def save_image(img, parent_dir, fname):
     print("Created: {}".format(output_filepath))
 
 def rescale(img, invoice_path):
-    rescaled_img = cv2.resize(img, None, fx=1.5, fy=1.5, interpolation=cv2.INTER_CUBIC)
+    img = cv2.resize(img, None, fx=1.5, fy=1.5, interpolation=cv2.INTER_CUBIC)
        
-    save_image(rescaled_img, invoice_path, 'rescaled.jpg')
+    save_image(img, invoice_path, 'rescaled.jpg')
     
-    return rescaled_img
+    return img
 
 
 def grayscale(img, invoice_path):
     
-    gray_img = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
+    img = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
  
-    save_image(gray_img, invoice_path, 'gray.jpg')
+    save_image(img, invoice_path, 'gray.jpg')
 
-    return gray_img
+    return img
     
 
 def binarisation(img, invoice_path):
-    bin_img = cv2.threshold(img, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
-    #bin_img = cv2.adaptiveThreshold(img, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 115, 1)
+    # with otsu - t becomes l
+    #img = cv2.threshold(img, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
+    #img = cv2.threshold(img, 0, 255, cv2.THRESH_BINARY)[1]
+    img = cv2.adaptiveThreshold(img, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 215, 1)
 
-    save_image(bin_img, invoice_path, 'bin.jpg')
+    save_image(img, invoice_path, 'bin.jpg')
     
-    return bin_img
+    return img
 
 
 def denoise(img, invoice_path):
-    #denoise_img = cv2.fastNlMeansDenoising(img, None, 9, 13)
-    #denoise_img = cv2.medianBlur(img, 3)
+    #img = cv2.fastNlMeansDenoising(img, None, 9, 13)
+    img = cv2.medianBlur(img, 3)
     
     kernel = np.ones((1, 1), np.uint8)
-    denoise_img = cv2.erode(img, kernel, iterations=1)
-    denoise_img = cv2.dilate(denoise_img, kernel, iterations=1)
-   
-
-    denoise_img = cv2.GaussianBlur(denoise_img, (5, 5), 0)
-    
-    save_image(denoise_img, invoice_path, 'denoise.jpg')
+    #img = cv2.dilate(img, kernel, iterations=1)
+    #img = cv2.erode(img, kernel, iterations=1)
+    #img = cv2.GaussianBlur(img, (5, 5), 0)
+       
+    save_image(img, invoice_path, 'denoise.jpg')
         
-    return denoise_img
+    return img
 
 
 def deskew(img, invoice_path):
@@ -151,10 +151,12 @@ def deskew(img, invoice_path):
     (h, w) = img.shape[:2]
     center = (w // 2, h // 2)
     M = cv2.getRotationMatrix2D(center, angle, 1.0)
-    deskew_img = cv2.warpAffine(img, M, (w, h), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE)
+    
+    img = cv2.warpAffine(img, M, (w, h), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE)
 
-    save_image(deskew_img, invoice_path, 'deskew.jpg')
-    return deskew_img
+    save_image(img, invoice_path, 'deskew.jpg')
+    
+    return img
  
 
 def ocr(img, invoice_path):
@@ -185,12 +187,13 @@ def readfolder_image(path):
       
             invoice_path = invoice_dir(filepath)
             
-            rescaled_img = rescale(img, invoice_path)
-            gray_img = grayscale(rescaled_img, invoice_path)
-            bin_img = binarisation(gray_img, invoice_path)
-            denoise_img = denoise(bin_img, invoice_path)
-            deskew_img = deskew(denoise_img, invoice_path)
-            ocr(deskew_img)
+            img = rescale(img, invoice_path)
+            img = grayscale(img, invoice_path)
+            
+            img = binarisation(img, invoice_path)   
+            img = denoise(img, invoice_path)
+            #img = deskew(img, invoice_path)
+            ocr(img, invoice_path)
     
 if __name__ == '__main__':
     if len(sys.argv) != 2:
