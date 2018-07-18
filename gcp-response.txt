@@ -1,0 +1,4150 @@
+/usr/lib/jvm/jdk1.8.0_101/bin/java -javaagent:/home/sameer/idea-IC-172.4343.14/lib/idea_rt.jar=44585:/home/sameer/idea-IC-172.4343.14/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/jdk1.8.0_101/jre/lib/charsets.jar:/usr/lib/jvm/jdk1.8.0_101/jre/lib/deploy.jar:/usr/lib/jvm/jdk1.8.0_101/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/jdk1.8.0_101/jre/lib/ext/dnsns.jar:/usr/lib/jvm/jdk1.8.0_101/jre/lib/ext/jaccess.jar:/usr/lib/jvm/jdk1.8.0_101/jre/lib/ext/jfxrt.jar:/usr/lib/jvm/jdk1.8.0_101/jre/lib/ext/localedata.jar:/usr/lib/jvm/jdk1.8.0_101/jre/lib/ext/nashorn.jar:/usr/lib/jvm/jdk1.8.0_101/jre/lib/ext/sunec.jar:/usr/lib/jvm/jdk1.8.0_101/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/jdk1.8.0_101/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/jdk1.8.0_101/jre/lib/ext/zipfs.jar:/usr/lib/jvm/jdk1.8.0_101/jre/lib/javaws.jar:/usr/lib/jvm/jdk1.8.0_101/jre/lib/jce.jar:/usr/lib/jvm/jdk1.8.0_101/jre/lib/jfr.jar:/usr/lib/jvm/jdk1.8.0_101/jre/lib/jfxswt.jar:/usr/lib/jvm/jdk1.8.0_101/jre/lib/jsse.jar:/usr/lib/jvm/jdk1.8.0_101/jre/lib/management-agent.jar:/usr/lib/jvm/jdk1.8.0_101/jre/lib/plugin.jar:/usr/lib/jvm/jdk1.8.0_101/jre/lib/resources.jar:/usr/lib/jvm/jdk1.8.0_101/jre/lib/rt.jar:/home/sameer/workspace/invoice-ocr/out/production/classes:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-vision/1.35.0/3efb32a9db5c595cda513986748ce40870e521a6/google-cloud-vision-1.35.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-storage/1.35.0/8e16f4cacd350be05a8eba02e6ab8e945cfa13ed/google-cloud-storage-1.35.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-core-grpc/1.35.0/49e8a3e831d3ce8f9896a821f65cb5584035c13f/google-cloud-core-grpc-1.35.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-core-http/1.35.0/a3bca89ec8f5f0702508c50fbda73686a87e3fb8/google-cloud-core-http-1.35.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-core/1.35.0/8b360fcdd18b022843400035977dca56773dcdcb/google-cloud-core-1.35.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.api/gax-grpc/1.28.0/7cbeed0c7597fffa90d61c2e7f744c15bf613124/gax-grpc-1.28.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.api/gax-httpjson/0.45.0/f4d2c72e185560b0cec6e2f6eea68adeea1967c2/gax-httpjson-0.45.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.api/gax/1.28.0/932f570c06599f34729e0abb250e999ceb5c2c63/gax-1.28.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.auth/google-auth-library-oauth2-http/0.9.1/c0fe3a39b0f28d59de1986b3c50f018cd7cb9ec2/google-auth-library-oauth2-http-0.9.1.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.23.0/522ea860eb48dee71dfe2c61a1fd09663539f556/google-api-client-1.23.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.23.0/e57ea1e2220bda5a2bd24ff17860212861f3c5cf/google-oauth-client-1.23.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-appengine/1.23.0/eda0d0f758c1cc525866e52e1226c4eb579d130/google-http-client-appengine-1.23.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson/1.23.0/a72ea3a197937ef63a893e73df312dac0d813663/google-http-client-jackson-1.23.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.23.0/fd6761f4046a8cb0455e6fa5f58e12b061e9826e/google-http-client-jackson2-1.23.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.23.0/8e86c84ff3c98eca6423e97780325b299133d858/google-http-client-1.23.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.5/1603dfd56ebcd583ccdf337b6c3984ac55d89e58/httpclient-4.5.5.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.9/a86ce739e5a7175b4b234c290a00a5fdb80957a0/httpcore-4.4.9.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/org.json/json/20180130/26ba2ec0e791a32ea5dfbedfcebf36447ee5b12c/json-20180130.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-cloud-vision-v1/1.17.0/d88aa56d0c3c5fd53bb0598d8f6d19b13bbb974e/proto-google-cloud-vision-v1-1.17.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-cloud-vision-v1p1beta1/0.18.0/8fd49f13b87d3aaf81db2090e72ea15de8eb8461/proto-google-cloud-vision-v1p1beta1-0.18.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-cloud-vision-v1p2beta1/1.17.0/3d44b1d49925f7a96c0ba86875271f21c24404d8/proto-google-cloud-vision-v1p2beta1-1.17.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-netty-shaded/1.12.0/fe3cbfd3fe70ec3c68ddd628964b7051cd724145/grpc-netty-shaded-1.12.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.12.0/fbd2bafe09a89442ab3d7a8d8b3e8bafbd59b4e0/grpc-stub-1.12.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-auth/1.12.0/800b55073d3ee3d97550c85026ab9281f4509114/grpc-auth-1.12.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-storage/v1-rev131-1.23.0/1defb87bf366bb54a03945bb98bfb5541f37737e/google-api-services-storage-v1-rev131-1.23.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf/1.12.0/fbee015b681b5342e72fe40f88eae9dd6cbce206/grpc-protobuf-1.12.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java-util/3.5.1/6e40a6a3f52455bd633aa2a0dba1a416e62b4575/protobuf-java-util-3.5.1.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf-lite/1.12.0/f5bebfbd5e93b8bbb58888a5cfaa9f490fb7b455/grpc-protobuf-lite-1.12.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-core/1.12.0/541a5c68ce85c03190e29bc9e0ec611d2b75ff24/grpc-core-1.12.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-contrib-http-util/0.11.1/82e572b41e81ecf58d0d1e9a3953a05aa8f9c84b/opencensus-contrib-http-util-0.11.1.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-iam-v1/0.12.0/ea312c0250a5d0a7cdd1b20bc2c3259938b79855/proto-google-iam-v1-0.12.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.api/api-common/1.6.0/fea8ce6b7d8629f1646641e07a3ab712b56b901e/api-common-1.6.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-contrib-grpc-metrics/0.11.0/d57b877f1a28a613452d45e35c7faae5af585258/opencensus-contrib-grpc-metrics-0.11.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-api/0.11.1/54689fbf750a7f26e34fa1f1f96b883c53f51486/opencensus-api-0.11.1.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/89507701249388e1ed5ddcf8c41f4ce1be7831ef/guava-20.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.2/36d6e77a419cb455e6fd5909f6f96b168e21e9d0/joda-time-2.9.2.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-common-protos/1.11.0/461c0ca22a2da16107c8e047743991052ee8d1e6/proto-google-common-protos-1.11.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.auth/google-auth-library-credentials/0.9.1/25e0f45f3b3d1b4fccc8944845e51a7a4f359652/google-auth-library-credentials-0.9.1.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.5.1/8c3492f7662fa1cbf8ca76a0f5eb1146f7725acd/protobuf-java-3.5.1.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-context/1.12.0/5b63a170b786051a42cce08118d5ea3c8f60f749/grpc-context-1.12.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/org.threeten/threetenbp/1.3.3/3ea31c96676ff12ab56be0b1af6fff61d1a4f1f2/threetenbp-1.3.3.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.2.0/88e3c593e9b3586e1c6177f89267da6fc6986f0c/error_prone_annotations-2.2.0.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.9.11/e32303ef8bd18a5c9272780d49b81c95e05ddf43/jackson-core-asl-1.9.11.jar:/home/sameer/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar com.example.vision.GcpDetect
+Symbol text: P (confidence: 0.990000)
+Symbol text: R (confidence: 1.000000)
+Symbol text: O (confidence: 0.990000)
+Symbol text: F (confidence: 1.000000)
+Symbol text: E (confidence: 1.000000)
+Symbol text: S (confidence: 1.000000)
+Symbol text: S (confidence: 0.990000)
+Symbol text: I (confidence: 1.000000)
+Symbol text: O (confidence: 1.000000)
+Symbol text: N (confidence: 1.000000)
+Symbol text: A (confidence: 1.000000)
+Symbol text: L (confidence: 1.000000)
+Word text: PROFESSIONAL (confidence: 0.990000)
+
+Symbol text: I (confidence: 0.990000)
+Symbol text: M (confidence: 0.990000)
+Symbol text: P (confidence: 0.990000)
+Symbol text: E (confidence: 0.990000)
+Symbol text: X (confidence: 0.990000)
+Word text: IMPEX (confidence: 0.990000)
+
+Symbol text: P (confidence: 0.990000)
+Symbol text: V (confidence: 0.990000)
+Symbol text: T (confidence: 0.990000)
+Word text: PVT (confidence: 0.990000)
+
+Symbol text: L (confidence: 1.000000)
+Symbol text: T (confidence: 1.000000)
+Symbol text: D (confidence: 1.000000)
+Word text: LTD (confidence: 1.000000)
+
+
+Paragraph: 
+ PROFESSIONAL IMPEX PVT LTD
+Paragraph Confidence: 0.990000
+Symbol text: C (confidence: 0.980000)
+Symbol text: H (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Word text: CHA (confidence: 0.980000)
+
+Symbol text: N (confidence: 0.990000)
+Symbol text: O (confidence: 0.950000)
+Word text: NO (confidence: 0.970000)
+
+Symbol text: . (confidence: 0.860000)
+Word text: . (confidence: 0.860000)
+
+Symbol text: R (confidence: 0.800000)
+Symbol text: 6 (confidence: 0.850000)
+Symbol text: 4 (confidence: 0.930000)
+Symbol text: 7 (confidence: 0.990000)
+Word text: R647 (confidence: 0.890000)
+
+Symbol text: / (confidence: 0.150000)
+Word text: / (confidence: 0.150000)
+
+Symbol text: C (confidence: 0.870000)
+Symbol text: H (confidence: 0.870000)
+Symbol text: N (confidence: 0.210000)
+Word text: CHN (confidence: 0.650000)
+
+Symbol text: / (confidence: 0.890000)
+Word text: / (confidence: 0.890000)
+
+Symbol text: ( (confidence: 0.840000)
+Word text: ( (confidence: 0.840000)
+
+Symbol text: M (confidence: 0.890000)
+Symbol text: S (confidence: 0.930000)
+Symbol text: M (confidence: 0.950000)
+Symbol text: E (confidence: 0.980000)
+Word text: MSME (confidence: 0.930000)
+
+Symbol text: : (confidence: 0.980000)
+Word text: : (confidence: 0.980000)
+
+Symbol text: T (confidence: 0.990000)
+Symbol text: N (confidence: 0.770000)
+Symbol text: 2 (confidence: 0.980000)
+Symbol text: E (confidence: 0.970000)
+Symbol text: 0 (confidence: 0.780000)
+Symbol text: 0 (confidence: 0.970000)
+Symbol text: 0 (confidence: 0.970000)
+Symbol text: 5 (confidence: 0.950000)
+Symbol text: 8 (confidence: 0.960000)
+Symbol text: 3 (confidence: 0.970000)
+Symbol text: 7 (confidence: 0.990000)
+Word text: TN2E0005837 (confidence: 0.930000)
+
+Symbol text: ) (confidence: 0.980000)
+Word text: ) (confidence: 0.980000)
+
+Symbol text: G (confidence: 0.970000)
+Symbol text: S (confidence: 0.990000)
+Symbol text: T (confidence: 0.990000)
+Symbol text: I (confidence: 0.990000)
+Symbol text: N (confidence: 0.990000)
+Word text: GSTIN (confidence: 0.980000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: N (confidence: 0.990000)
+Symbol text: O (confidence: 0.990000)
+Word text: NO (confidence: 0.990000)
+
+Symbol text: : (confidence: 0.990000)
+Word text: : (confidence: 0.990000)
+
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 7 (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: C (confidence: 0.990000)
+Symbol text: C (confidence: 0.990000)
+Symbol text: P (confidence: 0.990000)
+Symbol text: 4 (confidence: 0.990000)
+Symbol text: 9 (confidence: 0.990000)
+Symbol text: 7 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Symbol text: K (confidence: 0.990000)
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.250000)
+Symbol text: V (confidence: 0.850000)
+Word text: 07AACCP4978K12V (confidence: 0.930000)
+
+Symbol text: / (confidence: 0.820000)
+Word text: / (confidence: 0.820000)
+
+Symbol text: C (confidence: 0.720000)
+Symbol text: A (confidence: 0.940000)
+Symbol text: T (confidence: 0.940000)
+Symbol text: E (confidence: 0.970000)
+Symbol text: G (confidence: 1.000000)
+Symbol text: O (confidence: 1.000000)
+Symbol text: R (confidence: 0.990000)
+Symbol text: Y (confidence: 0.990000)
+Word text: CATEGORY (confidence: 0.940000)
+
+Symbol text: : (confidence: 0.870000)
+Word text: : (confidence: 0.870000)
+
+Symbol text: C (confidence: 0.850000)
+Symbol text: U (confidence: 0.930000)
+Symbol text: S (confidence: 0.930000)
+Symbol text: T (confidence: 0.980000)
+Symbol text: O (confidence: 0.980000)
+Symbol text: M (confidence: 1.000000)
+Symbol text: S (confidence: 0.990000)
+Word text: CUSTOMS (confidence: 0.950000)
+
+Symbol text: B (confidence: 0.990000)
+Symbol text: R (confidence: 1.000000)
+Symbol text: O (confidence: 0.990000)
+Symbol text: K (confidence: 0.990000)
+Symbol text: E (confidence: 1.000000)
+Symbol text: R (confidence: 0.990000)
+Word text: BROKER (confidence: 0.990000)
+
+
+Paragraph: 
+ CHA NO . R647 / CHN / ( MSME : TN2E0005837 ) GSTIN . NO : 07AACCP4978K12V / CATEGORY : CUSTOMS BROKER
+Paragraph Confidence: 0.920000
+Symbol text: D (confidence: 0.120000)
+Symbol text: O (confidence: 0.350000)
+Symbol text: S (confidence: 0.320000)
+Symbol text: Y (confidence: 0.230000)
+Symbol text: A (confidence: 0.160000)
+Word text: DOSYA (confidence: 0.230000)
+
+
+Paragraph: 
+ DOSYA
+Paragraph Confidence: 0.230000
+Symbol text: B (confidence: 0.990000)
+Symbol text: r (confidence: 0.990000)
+Symbol text: a (confidence: 1.000000)
+Symbol text: n (confidence: 1.000000)
+Symbol text: c (confidence: 1.000000)
+Symbol text: h (confidence: 1.000000)
+Word text: Branch (confidence: 0.990000)
+
+Symbol text: O (confidence: 0.990000)
+Symbol text: f (confidence: 0.990000)
+Symbol text: f (confidence: 0.990000)
+Word text: Off (confidence: 0.990000)
+
+Symbol text: : (confidence: 0.950000)
+Word text: : (confidence: 0.950000)
+
+Symbol text: 1 (confidence: 0.960000)
+Symbol text: S (confidence: 0.920000)
+Symbol text: T (confidence: 0.990000)
+Word text: 1ST (confidence: 0.950000)
+
+Symbol text: F (confidence: 0.980000)
+Symbol text: L (confidence: 1.000000)
+Symbol text: O (confidence: 1.000000)
+Symbol text: O (confidence: 1.000000)
+Symbol text: R (confidence: 1.000000)
+Word text: FLOOR (confidence: 0.990000)
+
+Symbol text: , (confidence: 0.990000)
+Word text: , (confidence: 0.990000)
+
+Symbol text: H (confidence: 0.950000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: R (confidence: 0.990000)
+Symbol text: B (confidence: 0.960000)
+Symbol text: A (confidence: 0.970000)
+Symbol text: N (confidence: 0.990000)
+Symbol text: S (confidence: 0.990000)
+Word text: HARBANS (confidence: 0.970000)
+
+Symbol text: B (confidence: 0.990000)
+Symbol text: H (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: W (confidence: 0.990000)
+Symbol text: A (confidence: 1.000000)
+Symbol text: N (confidence: 1.000000)
+Word text: BHAWAN (confidence: 0.990000)
+
+Symbol text: - (confidence: 0.930000)
+Word text: - (confidence: 0.930000)
+
+Symbol text: 1 (confidence: 0.860000)
+Word text: 1 (confidence: 0.860000)
+
+Symbol text: , (confidence: 0.480000)
+Word text: , (confidence: 0.480000)
+
+Symbol text: N (confidence: 0.860000)
+Symbol text: E (confidence: 0.950000)
+Symbol text: A (confidence: 0.940000)
+Symbol text: R (confidence: 0.990000)
+Word text: NEAR (confidence: 0.930000)
+
+Symbol text: S (confidence: 0.970000)
+Symbol text: Y (confidence: 0.990000)
+Symbol text: N (confidence: 0.990000)
+Symbol text: D (confidence: 1.000000)
+Symbol text: I (confidence: 0.990000)
+Symbol text: C (confidence: 1.000000)
+Symbol text: A (confidence: 1.000000)
+Symbol text: T (confidence: 1.000000)
+Symbol text: E (confidence: 1.000000)
+Word text: SYNDICATE (confidence: 0.990000)
+
+Symbol text: B (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: N (confidence: 1.000000)
+Symbol text: K (confidence: 0.980000)
+Word text: BANK (confidence: 0.990000)
+
+Symbol text: , (confidence: 0.920000)
+Word text: , (confidence: 0.920000)
+
+Symbol text: D (confidence: 0.980000)
+Symbol text: D (confidence: 0.990000)
+Symbol text: A (confidence: 0.980000)
+Word text: DDA (confidence: 0.980000)
+
+Symbol text: B (confidence: 0.990000)
+Symbol text: U (confidence: 0.990000)
+Symbol text: S (confidence: 0.990000)
+Symbol text: I (confidence: 0.990000)
+Symbol text: N (confidence: 1.000000)
+Symbol text: E (confidence: 1.000000)
+Symbol text: S (confidence: 1.000000)
+Symbol text: S (confidence: 1.000000)
+Word text: BUSINESS (confidence: 0.990000)
+
+Symbol text: C (confidence: 0.990000)
+Symbol text: O (confidence: 0.990000)
+Symbol text: M (confidence: 0.990000)
+Symbol text: P (confidence: 0.990000)
+Symbol text: L (confidence: 0.990000)
+Symbol text: E (confidence: 1.000000)
+Symbol text: X (confidence: 0.990000)
+Word text: COMPLEX (confidence: 0.990000)
+
+Symbol text: , (confidence: 1.000000)
+Word text: , (confidence: 1.000000)
+
+Symbol text: N (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: N (confidence: 0.990000)
+Symbol text: G (confidence: 0.990000)
+Symbol text: A (confidence: 1.000000)
+Symbol text: L (confidence: 0.990000)
+Word text: NANGAL (confidence: 0.990000)
+
+Symbol text: R (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: Y (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Word text: RAYA (confidence: 0.990000)
+
+Symbol text: , (confidence: 0.990000)
+Word text: , (confidence: 0.990000)
+
+Symbol text: N (confidence: 0.990000)
+Symbol text: E (confidence: 0.990000)
+Symbol text: W (confidence: 0.990000)
+Word text: NEW (confidence: 0.990000)
+
+Symbol text: D (confidence: 0.990000)
+Symbol text: E (confidence: 1.000000)
+Symbol text: L (confidence: 0.990000)
+Symbol text: H (confidence: 1.000000)
+Symbol text: I (confidence: 1.000000)
+Word text: DELHI (confidence: 0.990000)
+
+Symbol text: - (confidence: 0.960000)
+Word text: - (confidence: 0.960000)
+
+Symbol text: 1 (confidence: 0.940000)
+Symbol text: 1 (confidence: 0.940000)
+Symbol text: 0 (confidence: 0.940000)
+Symbol text: 0 (confidence: 0.980000)
+Symbol text: 4 (confidence: 0.930000)
+Symbol text: 6 (confidence: 0.960000)
+Word text: 110046 (confidence: 0.940000)
+
+Symbol text: . (confidence: 0.970000)
+Word text: . (confidence: 0.970000)
+
+Symbol text: T (confidence: 0.990000)
+Symbol text: e (confidence: 1.000000)
+Symbol text: l (confidence: 0.990000)
+Word text: Tel (confidence: 0.990000)
+
+Symbol text: . (confidence: 1.000000)
+Word text: . (confidence: 1.000000)
+
+Symbol text: N (confidence: 0.990000)
+Symbol text: o (confidence: 1.000000)
+Word text: No (confidence: 0.990000)
+
+Symbol text: . (confidence: 1.000000)
+Word text: . (confidence: 1.000000)
+
+Symbol text: : (confidence: 0.520000)
+Word text: : (confidence: 0.520000)
+
+Symbol text: 0 (confidence: 0.520000)
+Symbol text: 1 (confidence: 0.930000)
+Symbol text: 1 (confidence: 0.930000)
+Word text: 011 (confidence: 0.790000)
+
+
+Paragraph: 
+ Branch Off : 1ST FLOOR , HARBANS BHAWAN - 1 , NEAR SYNDICATE BANK , DDA BUSINESS COMPLEX , NANGAL RAYA , NEW DELHI - 110046 . Tel . No . : 011
+Paragraph Confidence: 0.960000
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Symbol text: 5 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.960000)
+Symbol text: 4 (confidence: 0.990000)
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 9 (confidence: 0.990000)
+Symbol text: 9 (confidence: 0.990000)
+Word text: 28524699 (confidence: 0.980000)
+
+Symbol text: F (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: X (confidence: 0.990000)
+Word text: FAX (confidence: 0.990000)
+
+Symbol text: N (confidence: 0.990000)
+Symbol text: O (confidence: 0.990000)
+Word text: NO (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.750000)
+Word text: . (confidence: 0.750000)
+
+Symbol text: - (confidence: 0.950000)
+Word text: - (confidence: 0.950000)
+
+Symbol text: 0 (confidence: 0.820000)
+Symbol text: 1 (confidence: 0.910000)
+Symbol text: 1 (confidence: 0.880000)
+Word text: 011 (confidence: 0.870000)
+
+Symbol text: 2 (confidence: 0.930000)
+Symbol text: 8 (confidence: 0.930000)
+Symbol text: 5 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 4 (confidence: 0.990000)
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 9 (confidence: 0.990000)
+Symbol text: 6 (confidence: 0.990000)
+Word text: 28524696 (confidence: 0.970000)
+
+Symbol text: E (confidence: 0.990000)
+Symbol text: m (confidence: 0.990000)
+Symbol text: a (confidence: 1.000000)
+Symbol text: i (confidence: 0.970000)
+Symbol text: l (confidence: 1.000000)
+Word text: Email (confidence: 0.990000)
+
+Symbol text: : (confidence: 1.000000)
+Word text: : (confidence: 1.000000)
+
+Symbol text: k (confidence: 0.930000)
+Symbol text: a (confidence: 0.990000)
+Symbol text: m (confidence: 0.990000)
+Symbol text: a (confidence: 1.000000)
+Symbol text: l (confidence: 0.990000)
+Word text: kamal (confidence: 0.980000)
+
+Symbol text: @ (confidence: 0.980000)
+Word text: @ (confidence: 0.980000)
+
+Symbol text: p (confidence: 0.990000)
+Symbol text: i (confidence: 0.990000)
+Symbol text: g (confidence: 0.990000)
+Symbol text: r (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: u (confidence: 0.990000)
+Symbol text: p (confidence: 1.000000)
+Word text: pigroup (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.970000)
+Word text: . (confidence: 0.970000)
+
+Symbol text: i (confidence: 0.990000)
+Symbol text: n (confidence: 1.000000)
+Word text: in (confidence: 0.990000)
+
+Symbol text: , (confidence: 0.990000)
+Word text: , (confidence: 0.990000)
+
+Symbol text: W (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Symbol text: b (confidence: 1.000000)
+Symbol text: s (confidence: 0.990000)
+Symbol text: i (confidence: 1.000000)
+Symbol text: t (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Word text: Website (confidence: 0.990000)
+
+Symbol text: : (confidence: 1.000000)
+Word text: : (confidence: 1.000000)
+
+Symbol text: w (confidence: 0.260000)
+Symbol text: w (confidence: 0.970000)
+Symbol text: w (confidence: 0.980000)
+Word text: www (confidence: 0.730000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: p (confidence: 0.900000)
+Symbol text: i (confidence: 0.590000)
+Symbol text: g (confidence: 0.800000)
+Symbol text: r (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: u (confidence: 0.990000)
+Symbol text: p (confidence: 1.000000)
+Word text: pigroup (confidence: 0.890000)
+
+Symbol text: . (confidence: 1.000000)
+Word text: . (confidence: 1.000000)
+
+Symbol text: i (confidence: 0.990000)
+Symbol text: n (confidence: 1.000000)
+Word text: in (confidence: 0.990000)
+
+Symbol text: T (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: X (confidence: 0.990000)
+Word text: TAX (confidence: 0.990000)
+
+Symbol text: I (confidence: 0.990000)
+Symbol text: N (confidence: 1.000000)
+Symbol text: V (confidence: 0.990000)
+Symbol text: O (confidence: 0.990000)
+Symbol text: I (confidence: 0.990000)
+Symbol text: C (confidence: 0.990000)
+Symbol text: E (confidence: 1.000000)
+Word text: INVOICE (confidence: 0.990000)
+
+
+Paragraph: 
+ 28524699 FAX NO . - 011 28524696 Email : kamal @ pigroup . in , Website : www . pigroup . in TAX INVOICE
+Paragraph Confidence: 0.960000
+Symbol text: O (confidence: 0.990000)
+Symbol text: r (confidence: 0.990000)
+Symbol text: i (confidence: 0.930000)
+Symbol text: g (confidence: 1.000000)
+Symbol text: i (confidence: 1.000000)
+Symbol text: n (confidence: 1.000000)
+Symbol text: a (confidence: 1.000000)
+Symbol text: l (confidence: 1.000000)
+Word text: Original (confidence: 0.980000)
+
+Symbol text: f (confidence: 0.700000)
+Symbol text: o (confidence: 0.710000)
+Symbol text: r (confidence: 0.980000)
+Word text: for (confidence: 0.790000)
+
+Symbol text: R (confidence: 0.950000)
+Symbol text: e (confidence: 0.980000)
+Symbol text: c (confidence: 0.950000)
+Symbol text: i (confidence: 0.960000)
+Symbol text: p (confidence: 1.000000)
+Symbol text: i (confidence: 0.990000)
+Symbol text: e (confidence: 1.000000)
+Symbol text: n (confidence: 1.000000)
+Symbol text: t (confidence: 1.000000)
+Word text: Recipient (confidence: 0.980000)
+
+Symbol text: D (confidence: 0.990000)
+Symbol text: u (confidence: 0.990000)
+Symbol text: p (confidence: 0.990000)
+Symbol text: l (confidence: 0.990000)
+Symbol text: i (confidence: 1.000000)
+Symbol text: c (confidence: 1.000000)
+Symbol text: a (confidence: 1.000000)
+Symbol text: t (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Word text: Duplicate (confidence: 0.990000)
+
+Symbol text: f (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: r (confidence: 1.000000)
+Word text: for (confidence: 0.990000)
+
+Symbol text: S (confidence: 0.990000)
+Symbol text: u (confidence: 0.990000)
+Symbol text: p (confidence: 0.990000)
+Symbol text: p (confidence: 0.990000)
+Symbol text: l (confidence: 0.990000)
+Symbol text: i (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Symbol text: r (confidence: 0.980000)
+Word text: Supplier (confidence: 0.990000)
+
+
+Paragraph: 
+ Original for Recipient Duplicate for Supplier
+Paragraph Confidence: 0.970000
+Symbol text: I (confidence: 0.990000)
+Symbol text: n (confidence: 0.990000)
+Symbol text: v (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: i (confidence: 0.990000)
+Symbol text: c (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Word text: Invoice (confidence: 0.990000)
+
+Symbol text: N (confidence: 0.940000)
+Symbol text: o (confidence: 1.000000)
+Word text: No (confidence: 0.970000)
+
+Symbol text: / (confidence: 0.850000)
+Word text: / (confidence: 0.850000)
+
+Symbol text: D (confidence: 0.850000)
+Symbol text: a (confidence: 0.910000)
+Symbol text: t (confidence: 0.940000)
+Symbol text: e (confidence: 0.960000)
+Word text: Date (confidence: 0.910000)
+
+
+Paragraph: 
+ Invoice No / Date
+Paragraph Confidence: 0.950000
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Symbol text: S (confidence: 0.810000)
+Symbol text: B (confidence: 0.930000)
+Symbol text: 7 (confidence: 0.920000)
+Symbol text: 2 (confidence: 0.940000)
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 1 (confidence: 0.970000)
+Symbol text: 8 (confidence: 0.980000)
+Symbol text: 8 (confidence: 0.970000)
+Symbol text: 8 (confidence: 0.970000)
+Word text: 18SB7211888 (confidence: 0.950000)
+
+Symbol text: / (confidence: 0.900000)
+Word text: / (confidence: 0.900000)
+
+Symbol text: D (confidence: 0.830000)
+Symbol text: t (confidence: 0.730000)
+Word text: Dt (confidence: 0.780000)
+
+Symbol text: . (confidence: 0.880000)
+Word text: . (confidence: 0.880000)
+
+Symbol text: 2 (confidence: 0.900000)
+Symbol text: 9 (confidence: 0.880000)
+Word text: 29 (confidence: 0.890000)
+
+Symbol text: / (confidence: 0.990000)
+Word text: / (confidence: 0.990000)
+
+Symbol text: 0 (confidence: 1.000000)
+Symbol text: 6 (confidence: 0.990000)
+Word text: 06 (confidence: 0.990000)
+
+Symbol text: / (confidence: 0.990000)
+Word text: / (confidence: 0.990000)
+
+Symbol text: 2 (confidence: 1.000000)
+Symbol text: 0 (confidence: 1.000000)
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Word text: 2018 (confidence: 0.990000)
+
+
+Paragraph: 
+ 18SB7211888 / Dt . 29 / 06 / 2018
+Paragraph Confidence: 0.940000
+Symbol text: B (confidence: 0.990000)
+Symbol text: i (confidence: 0.980000)
+Symbol text: l (confidence: 0.990000)
+Symbol text: l (confidence: 0.990000)
+Word text: Bill (confidence: 0.980000)
+
+Symbol text: T (confidence: 0.990000)
+Symbol text: o (confidence: 0.770000)
+Word text: To (confidence: 0.880000)
+
+Symbol text: : (confidence: 0.820000)
+Word text: : (confidence: 0.820000)
+
+Symbol text: ( (confidence: 0.870000)
+Word text: ( (confidence: 0.870000)
+
+Symbol text: G (confidence: 0.910000)
+Symbol text: S (confidence: 0.920000)
+Symbol text: T (confidence: 0.950000)
+Symbol text: I (confidence: 0.960000)
+Symbol text: N (confidence: 0.990000)
+Word text: GSTIN (confidence: 0.940000)
+
+Symbol text: : (confidence: 0.810000)
+Word text: : (confidence: 0.810000)
+
+Symbol text: 0 (confidence: 0.830000)
+Symbol text: 5 (confidence: 0.910000)
+Symbol text: A (confidence: 0.860000)
+Symbol text: A (confidence: 0.980000)
+Symbol text: B (confidence: 0.990000)
+Symbol text: C (confidence: 0.990000)
+Symbol text: S (confidence: 0.950000)
+Symbol text: 9 (confidence: 0.990000)
+Symbol text: 4 (confidence: 0.990000)
+Symbol text: 0 (confidence: 1.000000)
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: N (confidence: 0.990000)
+Symbol text: 1 (confidence: 0.880000)
+Symbol text: 2 (confidence: 0.190000)
+Symbol text: 6 (confidence: 0.880000)
+Word text: 05AABCS9402N126 (confidence: 0.890000)
+
+Symbol text: ) (confidence: 0.910000)
+Word text: ) (confidence: 0.910000)
+
+Symbol text: S (confidence: 0.990000)
+Symbol text: H (confidence: 0.990000)
+Symbol text: I (confidence: 0.990000)
+Symbol text: R (confidence: 0.990000)
+Symbol text: D (confidence: 0.990000)
+Symbol text: I (confidence: 0.990000)
+Word text: SHIRDI (confidence: 0.990000)
+
+Symbol text: I (confidence: 0.990000)
+Symbol text: N (confidence: 1.000000)
+Symbol text: D (confidence: 0.990000)
+Symbol text: U (confidence: 0.990000)
+Symbol text: S (confidence: 1.000000)
+Symbol text: T (confidence: 1.000000)
+Symbol text: R (confidence: 1.000000)
+Symbol text: I (confidence: 1.000000)
+Symbol text: E (confidence: 1.000000)
+Symbol text: S (confidence: 0.990000)
+Word text: INDUSTRIES (confidence: 0.990000)
+
+Symbol text: L (confidence: 0.950000)
+Symbol text: I (confidence: 0.990000)
+Symbol text: M (confidence: 1.000000)
+Symbol text: I (confidence: 0.990000)
+Symbol text: T (confidence: 1.000000)
+Symbol text: E (confidence: 1.000000)
+Symbol text: D (confidence: 1.000000)
+Word text: LIMITED (confidence: 0.990000)
+
+Symbol text: P (confidence: 0.990000)
+Symbol text: L (confidence: 0.990000)
+Symbol text: O (confidence: 0.990000)
+Symbol text: T (confidence: 1.000000)
+Word text: PLOT (confidence: 0.990000)
+
+Symbol text: N (confidence: 0.990000)
+Symbol text: O (confidence: 1.000000)
+Word text: NO (confidence: 0.990000)
+
+Symbol text: . (confidence: 1.000000)
+Word text: . (confidence: 1.000000)
+
+Symbol text: 1 (confidence: 0.990000)
+Word text: 1 (confidence: 0.990000)
+
+Symbol text: , (confidence: 0.720000)
+Word text: , (confidence: 0.720000)
+
+Symbol text: S (confidence: 0.790000)
+Symbol text: E (confidence: 0.900000)
+Symbol text: C (confidence: 0.900000)
+Symbol text: T (confidence: 0.940000)
+Symbol text: O (confidence: 0.940000)
+Symbol text: R (confidence: 0.960000)
+Word text: SECTOR (confidence: 0.900000)
+
+Symbol text: 9 (confidence: 0.840000)
+Word text: 9 (confidence: 0.840000)
+
+Symbol text: , (confidence: 0.950000)
+Word text: , (confidence: 0.950000)
+
+Symbol text: 1 (confidence: 0.970000)
+Symbol text: 1 (confidence: 0.980000)
+Word text: 11 (confidence: 0.970000)
+
+Symbol text: E (confidence: 0.950000)
+Word text: E (confidence: 0.950000)
+
+Symbol text: P (confidence: 0.980000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: N (confidence: 0.990000)
+Symbol text: T (confidence: 0.990000)
+Word text: PANT (confidence: 0.980000)
+
+Symbol text: N (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: G (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: R (confidence: 1.000000)
+Word text: NAGAR (confidence: 0.990000)
+
+Symbol text: D (confidence: 0.990000)
+Symbol text: I (confidence: 0.990000)
+Symbol text: S (confidence: 0.990000)
+Symbol text: T (confidence: 1.000000)
+Word text: DIST (confidence: 0.990000)
+
+Symbol text: - (confidence: 0.990000)
+Word text: - (confidence: 0.990000)
+
+Symbol text: U (confidence: 0.990000)
+Symbol text: D (confidence: 0.990000)
+Symbol text: H (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: M (confidence: 0.990000)
+Symbol text: S (confidence: 0.990000)
+Symbol text: I (confidence: 0.990000)
+Symbol text: N (confidence: 1.000000)
+Symbol text: G (confidence: 0.990000)
+Symbol text: H (confidence: 0.990000)
+Symbol text: N (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: G (confidence: 0.990000)
+Symbol text: A (confidence: 1.000000)
+Symbol text: R (confidence: 1.000000)
+Word text: UDHAMSINGHNAGAR (confidence: 0.990000)
+
+Symbol text: , (confidence: 0.280000)
+Word text: , (confidence: 0.280000)
+
+Symbol text: . (confidence: 0.490000)
+Word text: . (confidence: 0.490000)
+
+Symbol text: , (confidence: 0.680000)
+Word text: , (confidence: 0.680000)
+
+Symbol text: 2 (confidence: 0.860000)
+Symbol text: 6 (confidence: 0.860000)
+Symbol text: 3 (confidence: 0.890000)
+Symbol text: 1 (confidence: 0.910000)
+Symbol text: 5 (confidence: 0.990000)
+Symbol text: 3 (confidence: 0.990000)
+Word text: 263153 (confidence: 0.910000)
+
+Symbol text: S (confidence: 0.990000)
+Symbol text: t (confidence: 0.990000)
+Symbol text: a (confidence: 1.000000)
+Symbol text: t (confidence: 0.990000)
+Symbol text: e (confidence: 1.000000)
+Word text: State (confidence: 0.990000)
+
+Symbol text: U (confidence: 0.930000)
+Symbol text: T (confidence: 0.830000)
+Symbol text: T (confidence: 0.910000)
+Symbol text: A (confidence: 0.940000)
+Symbol text: R (confidence: 0.940000)
+Symbol text: A (confidence: 0.960000)
+Symbol text: K (confidence: 0.960000)
+Symbol text: H (confidence: 0.950000)
+Symbol text: A (confidence: 1.000000)
+Symbol text: N (confidence: 1.000000)
+Symbol text: D (confidence: 0.990000)
+Word text: UTTARAKHAND (confidence: 0.940000)
+
+Symbol text: S (confidence: 0.840000)
+Symbol text: t (confidence: 0.290000)
+Symbol text: a (confidence: 0.860000)
+Symbol text: t (confidence: 0.860000)
+Symbol text: e (confidence: 0.870000)
+Word text: State (confidence: 0.740000)
+
+Symbol text: C (confidence: 0.850000)
+Symbol text: o (confidence: 0.960000)
+Symbol text: d (confidence: 0.990000)
+Symbol text: e (confidence: 1.000000)
+Word text: Code (confidence: 0.950000)
+
+Symbol text: : (confidence: 0.970000)
+Word text: : (confidence: 0.970000)
+
+Symbol text: 0 (confidence: 0.920000)
+Symbol text: 5 (confidence: 0.980000)
+Word text: 05 (confidence: 0.950000)
+
+
+Paragraph: 
+ Bill To : ( GSTIN : 05AABCS9402N126 ) SHIRDI INDUSTRIES LIMITED PLOT NO . 1 , SECTOR 9 , 11 E PANT NAGAR DIST - UDHAMSINGHNAGAR , . , 263153 State UTTARAKHAND State Code : 05
+Paragraph Confidence: 0.930000
+Symbol text: J (confidence: 0.880000)
+Symbol text: o (confidence: 1.000000)
+Symbol text: b (confidence: 0.990000)
+Word text: Job (confidence: 0.950000)
+
+Symbol text: N (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Word text: No (confidence: 0.990000)
+
+Symbol text: / (confidence: 0.920000)
+Word text: / (confidence: 0.920000)
+
+Symbol text: T (confidence: 0.950000)
+Symbol text: y (confidence: 0.950000)
+Symbol text: p (confidence: 0.980000)
+Symbol text: e (confidence: 1.000000)
+Word text: Type (confidence: 0.970000)
+
+Symbol text: / (confidence: 0.890000)
+Word text: / (confidence: 0.890000)
+
+Symbol text: M (confidence: 0.830000)
+Symbol text: o (confidence: 0.910000)
+Symbol text: d (confidence: 0.960000)
+Symbol text: e (confidence: 0.970000)
+Word text: Mode (confidence: 0.910000)
+
+
+Paragraph: 
+ Job No / Type / Mode
+Paragraph Confidence: 0.940000
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 9 (confidence: 0.990000)
+Symbol text: 5 (confidence: 0.990000)
+Symbol text: 5 (confidence: 0.990000)
+Word text: 1810955 (confidence: 0.990000)
+
+Symbol text: / (confidence: 0.900000)
+Word text: / (confidence: 0.900000)
+
+Symbol text: I (confidence: 0.870000)
+Symbol text: M (confidence: 0.950000)
+Symbol text: P (confidence: 0.920000)
+Word text: IMP (confidence: 0.910000)
+
+Symbol text: / (confidence: 0.820000)
+Word text: / (confidence: 0.820000)
+
+Symbol text: S (confidence: 0.810000)
+Word text: S (confidence: 0.810000)
+
+
+Paragraph: 
+ 1810955 / IMP / S
+Paragraph Confidence: 0.930000
+Symbol text: D (confidence: 0.990000)
+Symbol text: a (confidence: 0.990000)
+Symbol text: t (confidence: 0.990000)
+Symbol text: e (confidence: 1.000000)
+Word text: Date (confidence: 0.990000)
+
+Symbol text: O (confidence: 0.920000)
+Symbol text: f (confidence: 1.000000)
+Word text: Of (confidence: 0.960000)
+
+Symbol text: S (confidence: 0.920000)
+Symbol text: u (confidence: 0.920000)
+Symbol text: p (confidence: 0.930000)
+Symbol text: p (confidence: 0.940000)
+Symbol text: l (confidence: 1.000000)
+Symbol text: y (confidence: 0.990000)
+Word text: Supply (confidence: 0.950000)
+
+
+Paragraph: 
+ Date Of Supply
+Paragraph Confidence: 0.960000
+Symbol text: 2 (confidence: 0.920000)
+Symbol text: 9 (confidence: 0.990000)
+Word text: 29 (confidence: 0.950000)
+
+Symbol text: / (confidence: 0.990000)
+Word text: / (confidence: 0.990000)
+
+Symbol text: 0 (confidence: 1.000000)
+Symbol text: 6 (confidence: 0.990000)
+Word text: 06 (confidence: 0.990000)
+
+Symbol text: / (confidence: 0.990000)
+Word text: / (confidence: 0.990000)
+
+Symbol text: 2 (confidence: 1.000000)
+Symbol text: 0 (confidence: 1.000000)
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Word text: 2018 (confidence: 0.990000)
+
+
+Paragraph: 
+ 29 / 06 / 2018
+Paragraph Confidence: 0.980000
+Symbol text: P (confidence: 0.990000)
+Symbol text: l (confidence: 0.990000)
+Symbol text: a (confidence: 1.000000)
+Symbol text: c (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Word text: Place (confidence: 0.990000)
+
+Symbol text: O (confidence: 0.960000)
+Symbol text: f (confidence: 0.990000)
+Word text: Of (confidence: 0.970000)
+
+Symbol text: S (confidence: 0.960000)
+Symbol text: u (confidence: 0.970000)
+Symbol text: p (confidence: 0.980000)
+Symbol text: p (confidence: 0.980000)
+Symbol text: l (confidence: 0.990000)
+Symbol text: y (confidence: 0.990000)
+Word text: Supply (confidence: 0.970000)
+
+
+Paragraph: 
+ Place Of Supply
+Paragraph Confidence: 0.980000
+Symbol text: U (confidence: 0.990000)
+Symbol text: T (confidence: 0.990000)
+Symbol text: T (confidence: 0.990000)
+Symbol text: A (confidence: 1.000000)
+Symbol text: R (confidence: 1.000000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: K (confidence: 1.000000)
+Symbol text: H (confidence: 1.000000)
+Symbol text: A (confidence: 1.000000)
+Symbol text: N (confidence: 1.000000)
+Symbol text: D (confidence: 1.000000)
+Word text: UTTARAKHAND (confidence: 0.990000)
+
+
+Paragraph: 
+ UTTARAKHAND
+Paragraph Confidence: 0.990000
+Symbol text: A (confidence: 0.990000)
+Symbol text: w (confidence: 0.990000)
+Symbol text: b (confidence: 0.980000)
+Word text: Awb (confidence: 0.980000)
+
+Symbol text: / (confidence: 0.960000)
+Word text: / (confidence: 0.960000)
+
+Symbol text: B (confidence: 0.980000)
+Symbol text: L (confidence: 0.990000)
+Word text: BL (confidence: 0.980000)
+
+Symbol text: N (confidence: 0.990000)
+Symbol text: o (confidence: 0.700000)
+Word text: No (confidence: 0.840000)
+
+
+Paragraph: 
+ Awb / BL No
+Paragraph Confidence: 0.940000
+Symbol text: E (confidence: 0.990000)
+Symbol text: P (confidence: 0.990000)
+Symbol text: I (confidence: 0.990000)
+Symbol text: R (confidence: 0.990000)
+Symbol text: C (confidence: 0.990000)
+Symbol text: H (confidence: 0.990000)
+Symbol text: N (confidence: 0.990000)
+Symbol text: N (confidence: 0.990000)
+Symbol text: G (confidence: 0.990000)
+Symbol text: B (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 5 (confidence: 0.990000)
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 3 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 4 (confidence: 0.990000)
+Word text: EPIRCHNNGB251324 (confidence: 0.990000)
+
+Symbol text: d (confidence: 0.990000)
+Symbol text: t (confidence: 0.990000)
+Word text: dt (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.400000)
+Word text: . (confidence: 0.400000)
+
+Symbol text: 2 (confidence: 0.870000)
+Symbol text: 2 (confidence: 0.870000)
+Word text: 22 (confidence: 0.870000)
+
+Symbol text: / (confidence: 0.860000)
+Word text: / (confidence: 0.860000)
+
+Symbol text: 0 (confidence: 0.880000)
+Symbol text: 5 (confidence: 0.930000)
+Word text: 05 (confidence: 0.900000)
+
+Symbol text: / (confidence: 1.000000)
+Word text: / (confidence: 1.000000)
+
+Symbol text: 2 (confidence: 0.960000)
+Symbol text: 0 (confidence: 0.980000)
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Word text: 2018 (confidence: 0.980000)
+
+
+Paragraph: 
+ EPIRCHNNGB251324 dt . 22 / 05 / 2018
+Paragraph Confidence: 0.950000
+Symbol text: I (confidence: 0.980000)
+Symbol text: m (confidence: 0.980000)
+Symbol text: p (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: r (confidence: 0.990000)
+Symbol text: t (confidence: 0.990000)
+Symbol text: e (confidence: 0.980000)
+Symbol text: r (confidence: 0.990000)
+Word text: Importer (confidence: 0.980000)
+
+Symbol text: : (confidence: 0.860000)
+Word text: : (confidence: 0.860000)
+
+Symbol text: S (confidence: 0.990000)
+Symbol text: H (confidence: 0.990000)
+Symbol text: I (confidence: 0.990000)
+Symbol text: R (confidence: 0.990000)
+Symbol text: D (confidence: 0.990000)
+Symbol text: I (confidence: 1.000000)
+Word text: SHIRDI (confidence: 0.990000)
+
+Symbol text: I (confidence: 0.990000)
+Symbol text: N (confidence: 1.000000)
+Symbol text: D (confidence: 0.990000)
+Symbol text: U (confidence: 0.990000)
+Symbol text: S (confidence: 0.980000)
+Symbol text: T (confidence: 1.000000)
+Symbol text: R (confidence: 1.000000)
+Symbol text: I (confidence: 1.000000)
+Symbol text: E (confidence: 1.000000)
+Symbol text: S (confidence: 0.990000)
+Word text: INDUSTRIES (confidence: 0.990000)
+
+Symbol text: L (confidence: 0.990000)
+Symbol text: I (confidence: 0.990000)
+Symbol text: M (confidence: 1.000000)
+Symbol text: I (confidence: 0.990000)
+Symbol text: T (confidence: 1.000000)
+Symbol text: E (confidence: 1.000000)
+Symbol text: D (confidence: 1.000000)
+Word text: LIMITED (confidence: 0.990000)
+
+Symbol text: P (confidence: 0.990000)
+Symbol text: L (confidence: 0.990000)
+Symbol text: O (confidence: 0.990000)
+Symbol text: T (confidence: 0.990000)
+Word text: PLOT (confidence: 0.990000)
+
+Symbol text: N (confidence: 0.990000)
+Symbol text: O (confidence: 0.990000)
+Word text: NO (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: 1 (confidence: 0.960000)
+Word text: 1 (confidence: 0.960000)
+
+Symbol text: . (confidence: 0.800000)
+Word text: . (confidence: 0.800000)
+
+Symbol text: S (confidence: 0.860000)
+Symbol text: E (confidence: 0.870000)
+Symbol text: C (confidence: 0.870000)
+Symbol text: T (confidence: 0.880000)
+Symbol text: O (confidence: 0.890000)
+Symbol text: R (confidence: 0.890000)
+Word text: SECTOR (confidence: 0.870000)
+
+Symbol text: 9 (confidence: 0.900000)
+Word text: 9 (confidence: 0.900000)
+
+Symbol text: , (confidence: 0.980000)
+Word text: , (confidence: 0.980000)
+
+Symbol text: 1 (confidence: 0.960000)
+Symbol text: 1 (confidence: 0.950000)
+Word text: 11 (confidence: 0.950000)
+
+Symbol text: E (confidence: 0.860000)
+Word text: E (confidence: 0.860000)
+
+Symbol text: P (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: N (confidence: 0.990000)
+Symbol text: T (confidence: 1.000000)
+Word text: PANT (confidence: 0.990000)
+
+Symbol text: N (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: G (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: R (confidence: 1.000000)
+Word text: NAGAR (confidence: 0.990000)
+
+Symbol text: D (confidence: 0.990000)
+Symbol text: I (confidence: 0.990000)
+Symbol text: S (confidence: 0.990000)
+Symbol text: T (confidence: 1.000000)
+Word text: DIST (confidence: 0.990000)
+
+Symbol text: U (confidence: 0.990000)
+Symbol text: D (confidence: 0.990000)
+Symbol text: H (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: M (confidence: 0.990000)
+Symbol text: S (confidence: 0.990000)
+Symbol text: I (confidence: 0.970000)
+Symbol text: N (confidence: 1.000000)
+Symbol text: G (confidence: 0.990000)
+Symbol text: H (confidence: 0.990000)
+Symbol text: N (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: G (confidence: 0.990000)
+Symbol text: A (confidence: 1.000000)
+Symbol text: R (confidence: 1.000000)
+Word text: UDHAMSINGHNAGAR (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.090000)
+Word text: . (confidence: 0.090000)
+
+Symbol text: U (confidence: 0.550000)
+Symbol text: T (confidence: 0.600000)
+Symbol text: T (confidence: 0.640000)
+Symbol text: A (confidence: 0.890000)
+Symbol text: R (confidence: 0.890000)
+Symbol text: A (confidence: 0.870000)
+Symbol text: K (confidence: 0.990000)
+Symbol text: H (confidence: 1.000000)
+Symbol text: A (confidence: 1.000000)
+Symbol text: N (confidence: 1.000000)
+Symbol text: D (confidence: 1.000000)
+Word text: UTTARAKHAND (confidence: 0.850000)
+
+Symbol text: , (confidence: 0.500000)
+Word text: , (confidence: 0.500000)
+
+Symbol text: 2 (confidence: 0.840000)
+Symbol text: 6 (confidence: 0.900000)
+Symbol text: 3 (confidence: 0.900000)
+Symbol text: 1 (confidence: 0.900000)
+Symbol text: 5 (confidence: 0.960000)
+Symbol text: 3 (confidence: 0.990000)
+Word text: 263153 (confidence: 0.910000)
+
+
+Paragraph: 
+ Importer : SHIRDI INDUSTRIES LIMITED PLOT NO . 1 . SECTOR 9 , 11 E PANT NAGAR DIST UDHAMSINGHNAGAR . UTTARAKHAND , 263153
+Paragraph Confidence: 0.940000
+Symbol text: B (confidence: 0.990000)
+Symbol text: E (confidence: 0.990000)
+Word text: BE (confidence: 0.990000)
+
+Symbol text: N (confidence: 0.990000)
+Symbol text: O (confidence: 0.180000)
+Word text: NO (confidence: 0.580000)
+
+
+Paragraph: 
+ BE NO
+Paragraph Confidence: 0.780000
+Symbol text: 6 (confidence: 0.970000)
+Symbol text: 7 (confidence: 0.980000)
+Symbol text: 1 (confidence: 0.940000)
+Symbol text: 6 (confidence: 0.970000)
+Symbol text: 2 (confidence: 0.830000)
+Symbol text: 2 (confidence: 0.980000)
+Symbol text: 8 (confidence: 0.980000)
+Word text: 6716228 (confidence: 0.950000)
+
+Symbol text: d (confidence: 0.970000)
+Symbol text: t (confidence: 0.980000)
+Word text: dt (confidence: 0.970000)
+
+Symbol text: . (confidence: 0.970000)
+Word text: . (confidence: 0.970000)
+
+Symbol text: 0 (confidence: 0.940000)
+Symbol text: 8 (confidence: 0.960000)
+Word text: 08 (confidence: 0.950000)
+
+Symbol text: / (confidence: 0.920000)
+Word text: / (confidence: 0.920000)
+
+Symbol text: 0 (confidence: 0.970000)
+Symbol text: 6 (confidence: 0.970000)
+Word text: 06 (confidence: 0.970000)
+
+Symbol text: / (confidence: 0.960000)
+Word text: / (confidence: 0.960000)
+
+Symbol text: 2 (confidence: 0.980000)
+Symbol text: 0 (confidence: 0.980000)
+Symbol text: 1 (confidence: 0.980000)
+Symbol text: 8 (confidence: 0.920000)
+Word text: 2018 (confidence: 0.960000)
+
+
+Paragraph: 
+ 6716228 dt . 08 / 06 / 2018
+Paragraph Confidence: 0.950000
+Symbol text: A (confidence: 0.990000)
+Symbol text: s (confidence: 0.990000)
+Symbol text: s (confidence: 1.000000)
+Symbol text: e (confidence: 0.990000)
+Symbol text: s (confidence: 1.000000)
+Symbol text: a (confidence: 0.990000)
+Symbol text: b (confidence: 0.990000)
+Symbol text: l (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Word text: Assesable (confidence: 0.990000)
+
+Symbol text: V (confidence: 0.970000)
+Symbol text: a (confidence: 0.980000)
+Symbol text: l (confidence: 0.990000)
+Symbol text: u (confidence: 0.970000)
+Symbol text: e (confidence: 0.990000)
+Word text: Value (confidence: 0.980000)
+
+
+Paragraph: 
+ Assesable Value
+Paragraph Confidence: 0.980000
+Symbol text: 7 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 7 (confidence: 0.990000)
+Symbol text: 9 (confidence: 1.000000)
+Symbol text: 3 (confidence: 0.990000)
+Symbol text: 7 (confidence: 0.990000)
+Word text: 7807937 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.870000)
+Word text: . (confidence: 0.870000)
+
+Symbol text: 0 (confidence: 0.870000)
+Symbol text: 5 (confidence: 0.970000)
+Word text: 05 (confidence: 0.920000)
+
+
+Paragraph: 
+ 7807937 . 05
+Paragraph Confidence: 0.960000
+Symbol text: D (confidence: 0.990000)
+Symbol text: u (confidence: 0.990000)
+Symbol text: t (confidence: 0.990000)
+Symbol text: y (confidence: 0.990000)
+Word text: Duty (confidence: 0.990000)
+
+Symbol text: A (confidence: 0.990000)
+Symbol text: m (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: u (confidence: 0.990000)
+Symbol text: n (confidence: 0.990000)
+Symbol text: t (confidence: 1.000000)
+Word text: Amount (confidence: 0.990000)
+
+
+Paragraph: 
+ Duty Amount
+Paragraph Confidence: 0.990000
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 7 (confidence: 1.000000)
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 5 (confidence: 0.990000)
+Symbol text: 1 (confidence: 0.990000)
+Word text: 1627251 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 0 (confidence: 1.000000)
+Word text: 00 (confidence: 0.990000)
+
+
+Paragraph: 
+ 1627251 . 00
+Paragraph Confidence: 0.990000
+Symbol text: N (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Word text: No (confidence: 0.990000)
+
+Symbol text: o (confidence: 0.990000)
+Symbol text: f (confidence: 0.990000)
+Word text: of (confidence: 0.990000)
+
+Symbol text: C (confidence: 0.880000)
+Symbol text: n (confidence: 0.990000)
+Symbol text: t (confidence: 0.990000)
+Symbol text: r (confidence: 0.960000)
+Word text: Cntr (confidence: 0.950000)
+
+
+Paragraph: 
+ No of Cntr
+Paragraph Confidence: 0.970000
+Symbol text: 2 (confidence: 0.990000)
+Word text: 2 (confidence: 0.990000)
+
+Symbol text: X (confidence: 0.960000)
+Word text: X (confidence: 0.960000)
+
+Symbol text: 4 (confidence: 0.850000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 40 (confidence: 0.920000)
+
+Symbol text: F (confidence: 0.960000)
+Symbol text: t (confidence: 0.960000)
+Word text: Ft (confidence: 0.960000)
+
+Symbol text: - (confidence: 0.970000)
+Word text: - (confidence: 0.970000)
+
+Symbol text: F (confidence: 0.930000)
+Word text: F (confidence: 0.930000)
+
+
+Paragraph: 
+ 2 X 40 Ft - F
+Paragraph Confidence: 0.950000
+Symbol text: S (confidence: 0.990000)
+Symbol text: u (confidence: 0.990000)
+Symbol text: p (confidence: 0.990000)
+Symbol text: p (confidence: 1.000000)
+Symbol text: l (confidence: 1.000000)
+Symbol text: i (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Symbol text: r (confidence: 1.000000)
+Word text: Supplier (confidence: 0.990000)
+
+Symbol text: : (confidence: 0.770000)
+Word text: : (confidence: 0.770000)
+
+Symbol text: M (confidence: 0.990000)
+Symbol text: I (confidence: 0.440000)
+Symbol text: S (confidence: 0.950000)
+Word text: MIS (confidence: 0.790000)
+
+Symbol text: . (confidence: 0.900000)
+Word text: . (confidence: 0.900000)
+
+Symbol text: K (confidence: 0.910000)
+Symbol text: I (confidence: 0.900000)
+Symbol text: N (confidence: 0.920000)
+Symbol text: G (confidence: 0.970000)
+Symbol text: D (confidence: 0.980000)
+Symbol text: E (confidence: 0.990000)
+Symbol text: C (confidence: 0.990000)
+Symbol text: O (confidence: 0.990000)
+Symbol text: R (confidence: 1.000000)
+Word text: KINGDECOR (confidence: 0.960000)
+
+Symbol text: ( (confidence: 0.990000)
+Word text: ( (confidence: 0.990000)
+
+Symbol text: Z (confidence: 0.990000)
+Symbol text: H (confidence: 0.990000)
+Symbol text: E (confidence: 0.990000)
+Symbol text: J (confidence: 0.920000)
+Symbol text: I (confidence: 1.000000)
+Symbol text: A (confidence: 1.000000)
+Symbol text: N (confidence: 1.000000)
+Symbol text: G (confidence: 0.990000)
+Word text: ZHEJIANG (confidence: 0.980000)
+
+Symbol text: ) (confidence: 0.990000)
+Word text: ) (confidence: 0.990000)
+
+Symbol text: C (confidence: 0.990000)
+Symbol text: O (confidence: 0.990000)
+Word text: CO (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.940000)
+Word text: . (confidence: 0.940000)
+
+Symbol text: , (confidence: 0.980000)
+Word text: , (confidence: 0.980000)
+
+Symbol text: L (confidence: 0.990000)
+Symbol text: T (confidence: 1.000000)
+Symbol text: D (confidence: 1.000000)
+Word text: LTD (confidence: 0.990000)
+
+Symbol text: N (confidence: 0.990000)
+Symbol text: O (confidence: 0.990000)
+Word text: NO (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 20 (confidence: 0.990000)
+
+Symbol text: S (confidence: 0.990000)
+Symbol text: O (confidence: 0.990000)
+Symbol text: U (confidence: 0.990000)
+Symbol text: T (confidence: 1.000000)
+Symbol text: H (confidence: 1.000000)
+Word text: SOUTH (confidence: 0.990000)
+
+Symbol text: T (confidence: 0.990000)
+Symbol text: I (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: N (confidence: 0.990000)
+Symbol text: H (confidence: 0.990000)
+Symbol text: U (confidence: 0.990000)
+Word text: TIANHU (confidence: 0.990000)
+
+Symbol text: R (confidence: 0.990000)
+Symbol text: O (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: D (confidence: 1.000000)
+Word text: ROAD (confidence: 0.990000)
+
+Symbol text: , (confidence: 0.980000)
+Word text: , (confidence: 0.980000)
+
+Symbol text: Q (confidence: 0.990000)
+Symbol text: U (confidence: 0.990000)
+Symbol text: Z (confidence: 0.990000)
+Symbol text: H (confidence: 0.990000)
+Symbol text: O (confidence: 0.990000)
+Symbol text: U (confidence: 1.000000)
+Word text: QUZHOU (confidence: 0.990000)
+
+Symbol text: , (confidence: 0.990000)
+Word text: , (confidence: 0.990000)
+
+Symbol text: Z (confidence: 0.990000)
+Symbol text: H (confidence: 0.990000)
+Symbol text: E (confidence: 0.990000)
+Symbol text: J (confidence: 0.990000)
+Symbol text: I (confidence: 1.000000)
+Symbol text: A (confidence: 1.000000)
+Symbol text: N (confidence: 1.000000)
+Symbol text: G (confidence: 1.000000)
+Word text: ZHEJIANG (confidence: 0.990000)
+
+Symbol text: 3 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 4 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Word text: 324022 (confidence: 0.990000)
+
+Symbol text: C (confidence: 0.990000)
+Symbol text: H (confidence: 0.990000)
+Symbol text: I (confidence: 0.990000)
+Symbol text: N (confidence: 1.000000)
+Symbol text: A (confidence: 1.000000)
+Word text: CHINA (confidence: 0.990000)
+
+
+Paragraph: 
+ Supplier : MIS . KINGDECOR ( ZHEJIANG ) CO . , LTD NO . 20 SOUTH TIANHU ROAD , QUZHOU , ZHEJIANG 324022 CHINA
+Paragraph Confidence: 0.970000
+Symbol text: Q (confidence: 0.990000)
+Symbol text: t (confidence: 0.990000)
+Symbol text: y (confidence: 0.990000)
+Word text: Qty (confidence: 0.990000)
+
+
+Paragraph: 
+ Qty
+Paragraph Confidence: 0.990000
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 9 (confidence: 0.990000)
+Word text: 119 (confidence: 0.990000)
+
+Symbol text: R (confidence: 0.990000)
+Symbol text: L (confidence: 0.990000)
+Symbol text: S (confidence: 0.920000)
+Word text: RLS (confidence: 0.960000)
+
+Symbol text: / (confidence: 0.890000)
+Word text: / (confidence: 0.890000)
+
+Symbol text: 4 (confidence: 0.920000)
+Symbol text: 9 (confidence: 0.920000)
+Symbol text: 9 (confidence: 1.000000)
+Symbol text: 9 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Word text: 49992 (confidence: 0.960000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 000 (confidence: 0.990000)
+
+Symbol text: K (confidence: 0.990000)
+Symbol text: G (confidence: 0.990000)
+Symbol text: S (confidence: 0.990000)
+Word text: KGS (confidence: 0.990000)
+
+
+Paragraph: 
+ 119 RLS / 49992 . 000 KGS
+Paragraph Confidence: 0.970000
+Symbol text: P (confidence: 0.990000)
+Symbol text: a (confidence: 0.990000)
+Symbol text: r (confidence: 1.000000)
+Symbol text: t (confidence: 0.970000)
+Symbol text: y (confidence: 0.990000)
+Word text: Party (confidence: 0.980000)
+
+Symbol text: R (confidence: 0.990000)
+Symbol text: e (confidence: 1.000000)
+Symbol text: f (confidence: 0.870000)
+Word text: Ref (confidence: 0.950000)
+
+Symbol text: I (confidence: 0.980000)
+Symbol text: t (confidence: 0.980000)
+Symbol text: e (confidence: 0.930000)
+Symbol text: m (confidence: 0.990000)
+Word text: Item (confidence: 0.970000)
+
+Symbol text: : (confidence: 0.970000)
+Word text: : (confidence: 0.970000)
+
+Symbol text: B (confidence: 0.940000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: R (confidence: 0.990000)
+Symbol text: R (confidence: 1.000000)
+Symbol text: I (confidence: 0.990000)
+Symbol text: E (confidence: 0.990000)
+Symbol text: R (confidence: 1.000000)
+Word text: BARRIER (confidence: 0.980000)
+
+Symbol text: P (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: P (confidence: 0.990000)
+Symbol text: E (confidence: 0.990000)
+Symbol text: R (confidence: 1.000000)
+Word text: PAPER (confidence: 0.990000)
+
+Symbol text: ( (confidence: 0.990000)
+Word text: ( (confidence: 0.990000)
+
+Symbol text: K (confidence: 0.990000)
+Symbol text: D (confidence: 0.950000)
+Symbol text: 0 (confidence: 0.980000)
+Symbol text: 0 (confidence: 0.980000)
+Symbol text: 4 (confidence: 0.970000)
+Symbol text: 6 (confidence: 0.960000)
+Symbol text: U (confidence: 0.790000)
+Word text: KD0046U (confidence: 0.940000)
+
+Symbol text: ) (confidence: 0.910000)
+Word text: ) (confidence: 0.910000)
+
+Symbol text: ( (confidence: 0.910000)
+Word text: ( (confidence: 0.910000)
+
+Symbol text: 1 (confidence: 0.520000)
+Symbol text: 0 (confidence: 0.910000)
+Symbol text: 0 (confidence: 0.910000)
+Word text: 100 (confidence: 0.780000)
+
+Symbol text: G (confidence: 0.960000)
+Symbol text: S (confidence: 0.970000)
+Symbol text: M (confidence: 0.990000)
+Word text: GSM (confidence: 0.970000)
+
+Symbol text: ) (confidence: 0.990000)
+Word text: ) (confidence: 0.990000)
+
+Symbol text: ( (confidence: 0.950000)
+Word text: ( (confidence: 0.950000)
+
+Symbol text: W (confidence: 0.950000)
+Symbol text: I (confidence: 0.980000)
+Symbol text: D (confidence: 0.970000)
+Symbol text: T (confidence: 0.970000)
+Symbol text: H (confidence: 1.000000)
+Word text: WIDTH (confidence: 0.970000)
+
+Symbol text: O (confidence: 0.990000)
+Symbol text: F (confidence: 0.990000)
+Word text: OF (confidence: 0.990000)
+
+Symbol text: R (confidence: 0.990000)
+Symbol text: O (confidence: 0.990000)
+Symbol text: L (confidence: 0.990000)
+Symbol text: L (confidence: 0.990000)
+Symbol text: S (confidence: 0.990000)
+Word text: ROLLS (confidence: 0.990000)
+
+Symbol text: : (confidence: 0.980000)
+Word text: : (confidence: 0.980000)
+
+Symbol text: 1 (confidence: 0.980000)
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 4 (confidence: 0.980000)
+Word text: 124 (confidence: 0.980000)
+
+Symbol text: C (confidence: 0.980000)
+Symbol text: M (confidence: 0.980000)
+Symbol text: S (confidence: 0.990000)
+Word text: CMS (confidence: 0.980000)
+
+Symbol text: ) (confidence: 0.990000)
+Word text: ) (confidence: 0.990000)
+
+Symbol text: ( (confidence: 0.990000)
+Word text: ( (confidence: 0.990000)
+
+Symbol text: U (confidence: 0.990000)
+Symbol text: N (confidence: 0.990000)
+Symbol text: C (confidence: 0.990000)
+Symbol text: O (confidence: 0.950000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: T (confidence: 1.000000)
+Symbol text: E (confidence: 0.990000)
+Symbol text: D (confidence: 1.000000)
+Word text: UNCOATED (confidence: 0.980000)
+
+Symbol text: ) (confidence: 0.990000)
+Word text: ) (confidence: 0.990000)
+
+Symbol text: P (confidence: 0.910000)
+Symbol text: O (confidence: 0.910000)
+Word text: PO (confidence: 0.910000)
+
+Symbol text: N (confidence: 0.920000)
+Symbol text: o (confidence: 0.820000)
+Word text: No (confidence: 0.870000)
+
+Symbol text: / (confidence: 0.850000)
+Word text: / (confidence: 0.850000)
+
+Symbol text: D (confidence: 0.860000)
+Symbol text: a (confidence: 0.910000)
+Symbol text: t (confidence: 0.970000)
+Symbol text: e (confidence: 0.950000)
+Word text: Date (confidence: 0.920000)
+
+Symbol text: ( (confidence: 0.990000)
+Word text: ( (confidence: 0.990000)
+
+Symbol text: F (confidence: 0.990000)
+Symbol text: O (confidence: 0.990000)
+Symbol text: R (confidence: 0.990000)
+Word text: FOR (confidence: 0.990000)
+
+Symbol text: I (confidence: 0.990000)
+Symbol text: M (confidence: 0.990000)
+Symbol text: P (confidence: 1.000000)
+Symbol text: R (confidence: 1.000000)
+Symbol text: E (confidence: 0.990000)
+Symbol text: G (confidence: 0.990000)
+Symbol text: N (confidence: 1.000000)
+Symbol text: A (confidence: 1.000000)
+Symbol text: T (confidence: 1.000000)
+Symbol text: I (confidence: 0.990000)
+Symbol text: O (confidence: 1.000000)
+Symbol text: N (confidence: 1.000000)
+Word text: IMPREGNATION (confidence: 0.990000)
+
+Symbol text: P (confidence: 0.990000)
+Symbol text: U (confidence: 0.990000)
+Symbol text: R (confidence: 0.990000)
+Symbol text: P (confidence: 1.000000)
+Symbol text: O (confidence: 1.000000)
+Symbol text: S (confidence: 0.990000)
+Symbol text: E (confidence: 1.000000)
+Word text: PURPOSE (confidence: 0.990000)
+
+Symbol text: ) (confidence: 0.860000)
+Word text: ) (confidence: 0.860000)
+
+Symbol text: ( (confidence: 0.960000)
+Word text: ( (confidence: 0.960000)
+
+Symbol text: C (confidence: 0.970000)
+Word text: C (confidence: 0.970000)
+
+
+Paragraph: 
+ Party Ref Item : BARRIER PAPER ( KD0046U ) ( 100 GSM ) ( WIDTH OF ROLLS : 124 CMS ) ( UNCOATED ) PO No / Date ( FOR IMPREGNATION PURPOSE ) ( C
+Paragraph Confidence: 0.960000
+Symbol text: W (confidence: 0.990000)
+Symbol text: h (confidence: 0.990000)
+Symbol text: e (confidence: 1.000000)
+Symbol text: t (confidence: 0.990000)
+Symbol text: h (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Symbol text: r (confidence: 1.000000)
+Word text: Whether (confidence: 0.990000)
+
+Symbol text: R (confidence: 0.990000)
+Symbol text: C (confidence: 0.770000)
+Symbol text: M (confidence: 0.970000)
+Word text: RCM (confidence: 0.910000)
+
+Symbol text: i (confidence: 0.960000)
+Symbol text: s (confidence: 0.980000)
+Word text: is (confidence: 0.970000)
+
+Symbol text: a (confidence: 0.990000)
+Symbol text: p (confidence: 0.960000)
+Symbol text: p (confidence: 1.000000)
+Symbol text: l (confidence: 1.000000)
+Symbol text: i (confidence: 1.000000)
+Symbol text: c (confidence: 1.000000)
+Symbol text: a (confidence: 1.000000)
+Symbol text: b (confidence: 0.990000)
+Symbol text: l (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Word text: applicable (confidence: 0.990000)
+
+Symbol text: ? (confidence: 0.900000)
+Word text: ? (confidence: 0.900000)
+
+Symbol text: ( (confidence: 0.920000)
+Word text: ( (confidence: 0.920000)
+
+Symbol text: N (confidence: 0.650000)
+Symbol text: O (confidence: 0.860000)
+Word text: NO (confidence: 0.750000)
+
+Symbol text: ) (confidence: 0.910000)
+Word text: ) (confidence: 0.910000)
+
+Symbol text: S (confidence: 0.990000)
+Symbol text: N (confidence: 0.990000)
+Symbol text: O (confidence: 0.500000)
+Word text: SNO (confidence: 0.820000)
+
+Symbol text: D (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Symbol text: s (confidence: 1.000000)
+Symbol text: c (confidence: 1.000000)
+Symbol text: r (confidence: 1.000000)
+Symbol text: i (confidence: 1.000000)
+Symbol text: p (confidence: 1.000000)
+Symbol text: t (confidence: 1.000000)
+Symbol text: i (confidence: 1.000000)
+Symbol text: o (confidence: 1.000000)
+Symbol text: n (confidence: 1.000000)
+Symbol text: s (confidence: 0.990000)
+Word text: Descriptions (confidence: 0.990000)
+
+Symbol text: H (confidence: 0.990000)
+Symbol text: S (confidence: 0.990000)
+Symbol text: N (confidence: 0.990000)
+Word text: HSN (confidence: 0.990000)
+
+Symbol text: Q (confidence: 0.990000)
+Symbol text: t (confidence: 0.990000)
+Symbol text: y (confidence: 0.900000)
+Word text: Qty (confidence: 0.960000)
+
+Symbol text: U (confidence: 0.990000)
+Symbol text: O (confidence: 0.990000)
+Symbol text: M (confidence: 1.000000)
+Symbol text: O (confidence: 0.330000)
+Word text: UOMO (confidence: 0.820000)
+
+Symbol text: R (confidence: 0.990000)
+Symbol text: a (confidence: 0.990000)
+Symbol text: t (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Word text: Rate (confidence: 0.990000)
+
+Symbol text: A (confidence: 0.990000)
+Symbol text: m (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: u (confidence: 0.990000)
+Symbol text: n (confidence: 1.000000)
+Symbol text: t (confidence: 1.000000)
+Word text: Amount (confidence: 0.990000)
+
+Symbol text: C (confidence: 0.990000)
+Symbol text: G (confidence: 0.990000)
+Symbol text: S (confidence: 0.990000)
+Symbol text: T (confidence: 0.990000)
+Word text: CGST (confidence: 0.990000)
+
+
+Paragraph: 
+ Whether RCM is applicable ? ( NO ) SNO Descriptions HSN Qty UOMO Rate Amount CGST
+Paragraph Confidence: 0.950000
+Symbol text: S (confidence: 0.990000)
+Symbol text: G (confidence: 0.990000)
+Symbol text: S (confidence: 0.990000)
+Symbol text: T (confidence: 0.990000)
+Word text: SGST (confidence: 0.990000)
+
+Symbol text: I (confidence: 0.620000)
+Symbol text: A (confidence: 0.930000)
+Symbol text: C (confidence: 0.970000)
+Symbol text: S (confidence: 0.930000)
+Word text: IACS (confidence: 0.860000)
+
+
+Paragraph: 
+ SGST IACS
+Paragraph Confidence: 0.920000
+Symbol text: ( (confidence: 0.990000)
+Word text: ( (confidence: 0.990000)
+
+Symbol text: R (confidence: 0.990000)
+Symbol text: s (confidence: 0.990000)
+Word text: Rs (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: ) (confidence: 0.980000)
+Word text: ) (confidence: 0.980000)
+
+Symbol text: C (confidence: 0.990000)
+Symbol text: o (confidence: 1.000000)
+Symbol text: d (confidence: 0.990000)
+Symbol text: e (confidence: 1.000000)
+Word text: Code (confidence: 0.990000)
+
+
+Paragraph: 
+ ( Rs . ) Code
+Paragraph Confidence: 0.990000
+Symbol text: I (confidence: 0.990000)
+Symbol text: G (confidence: 0.990000)
+Symbol text: S (confidence: 0.990000)
+Symbol text: T (confidence: 1.000000)
+Word text: IGST (confidence: 0.990000)
+
+
+Paragraph: 
+ IGST
+Paragraph Confidence: 0.990000
+Symbol text: ( (confidence: 0.990000)
+Word text: ( (confidence: 0.990000)
+
+Symbol text: R (confidence: 0.990000)
+Symbol text: s (confidence: 0.850000)
+Word text: Rs (confidence: 0.920000)
+
+Symbol text: . (confidence: 1.000000)
+Word text: . (confidence: 1.000000)
+
+Symbol text: ) (confidence: 0.990000)
+Word text: ) (confidence: 0.990000)
+
+
+Paragraph: 
+ ( Rs . )
+Paragraph Confidence: 0.960000
+Symbol text: T (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: t (confidence: 0.990000)
+Symbol text: a (confidence: 1.000000)
+Symbol text: l (confidence: 1.000000)
+Word text: Total (confidence: 0.990000)
+
+Symbol text: ( (confidence: 0.990000)
+Word text: ( (confidence: 0.990000)
+
+Symbol text: R (confidence: 0.990000)
+Symbol text: s (confidence: 0.990000)
+Word text: Rs (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: ) (confidence: 0.990000)
+Word text: ) (confidence: 0.990000)
+
+
+Paragraph: 
+ Total ( Rs . )
+Paragraph Confidence: 0.990000
+Symbol text: A (confidence: 0.990000)
+Symbol text: m (confidence: 0.990000)
+Symbol text: t (confidence: 0.990000)
+Word text: Amt (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.890000)
+Word text: . (confidence: 0.890000)
+
+
+Paragraph: 
+ Amt .
+Paragraph Confidence: 0.960000
+Symbol text: A (confidence: 0.990000)
+Symbol text: m (confidence: 0.990000)
+Symbol text: t (confidence: 0.990000)
+Word text: Amt (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.950000)
+Word text: . (confidence: 0.950000)
+
+
+Paragraph: 
+ Amt .
+Paragraph Confidence: 0.980000
+Symbol text: A (confidence: 0.990000)
+Symbol text: m (confidence: 0.990000)
+Symbol text: t (confidence: 0.990000)
+Word text: Amt (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.970000)
+Word text: . (confidence: 0.970000)
+
+
+Paragraph: 
+ Amt .
+Paragraph Confidence: 0.980000
+Symbol text: R (confidence: 0.990000)
+Symbol text: a (confidence: 1.000000)
+Symbol text: t (confidence: 0.990000)
+Symbol text: e (confidence: 1.000000)
+Word text: Rate (confidence: 0.990000)
+
+Symbol text: ( (confidence: 0.990000)
+Word text: ( (confidence: 0.990000)
+
+Symbol text: % (confidence: 0.800000)
+Word text: % (confidence: 0.800000)
+
+Symbol text: ) (confidence: 0.990000)
+Word text: ) (confidence: 0.990000)
+
+
+Paragraph: 
+ Rate ( % )
+Paragraph Confidence: 0.960000
+Symbol text: R (confidence: 0.990000)
+Symbol text: a (confidence: 1.000000)
+Symbol text: t (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Word text: Rate (confidence: 0.990000)
+
+Symbol text: I (confidence: 0.600000)
+Word text: I (confidence: 0.600000)
+
+Symbol text: % (confidence: 0.710000)
+Word text: % (confidence: 0.710000)
+
+
+Paragraph: 
+ Rate I %
+Paragraph Confidence: 0.880000
+Symbol text: 1 (confidence: 0.980000)
+Symbol text: 1 (confidence: 0.500000)
+Word text: 11 (confidence: 0.740000)
+
+Symbol text: N (confidence: 0.990000)
+Symbol text: o (confidence: 1.000000)
+Symbol text: s (confidence: 0.990000)
+Word text: Nos (confidence: 0.990000)
+
+Symbol text: 1 (confidence: 0.870000)
+Symbol text: 1 (confidence: 0.260000)
+Word text: 11 (confidence: 0.560000)
+
+Symbol text: N (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: s (confidence: 0.990000)
+Word text: Nos (confidence: 0.990000)
+
+
+Paragraph: 
+ 11 Nos 11 Nos
+Paragraph Confidence: 0.850000
+Symbol text: A (confidence: 0.990000)
+Symbol text: G (confidence: 0.990000)
+Symbol text: E (confidence: 1.000000)
+Symbol text: N (confidence: 1.000000)
+Symbol text: C (confidence: 1.000000)
+Symbol text: Y (confidence: 0.990000)
+Word text: AGENCY (confidence: 0.990000)
+
+Symbol text: C (confidence: 0.990000)
+Symbol text: H (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: R (confidence: 1.000000)
+Symbol text: G (confidence: 0.990000)
+Symbol text: E (confidence: 1.000000)
+Symbol text: S (confidence: 0.990000)
+Word text: CHARGES (confidence: 0.990000)
+
+Symbol text: ( (confidence: 0.990000)
+Word text: ( (confidence: 0.990000)
+
+Symbol text: T (confidence: 0.990000)
+Symbol text: K (confidence: 0.990000)
+Symbol text: D (confidence: 0.990000)
+Word text: TKD (confidence: 0.990000)
+
+Symbol text: ) (confidence: 0.960000)
+Word text: ) (confidence: 0.960000)
+
+Symbol text: T (confidence: 0.990000)
+Symbol text: R (confidence: 0.990000)
+Symbol text: A (confidence: 1.000000)
+Symbol text: N (confidence: 1.000000)
+Symbol text: S (confidence: 1.000000)
+Symbol text: P (confidence: 1.000000)
+Symbol text: O (confidence: 0.990000)
+Symbol text: R (confidence: 1.000000)
+Symbol text: T (confidence: 1.000000)
+Word text: TRANSPORT (confidence: 0.990000)
+
+Symbol text: C (confidence: 0.990000)
+Symbol text: H (confidence: 0.990000)
+Symbol text: A (confidence: 1.000000)
+Symbol text: R (confidence: 0.990000)
+Symbol text: G (confidence: 0.990000)
+Symbol text: E (confidence: 1.000000)
+Symbol text: S (confidence: 0.990000)
+Word text: CHARGES (confidence: 0.990000)
+
+Symbol text: E (confidence: 0.990000)
+Symbol text: D (confidence: 0.990000)
+Symbol text: I (confidence: 1.000000)
+Word text: EDI (confidence: 0.990000)
+
+Symbol text: C (confidence: 0.990000)
+Symbol text: H (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: R (confidence: 0.990000)
+Symbol text: G (confidence: 0.990000)
+Symbol text: E (confidence: 1.000000)
+Symbol text: S (confidence: 0.990000)
+Word text: CHARGES (confidence: 0.990000)
+
+Symbol text: C (confidence: 0.960000)
+Symbol text: O (confidence: 0.960000)
+Symbol text: N (confidence: 0.970000)
+Symbol text: C (confidence: 0.960000)
+Symbol text: O (confidence: 0.960000)
+Symbol text: R (confidence: 0.970000)
+Word text: CONCOR (confidence: 0.960000)
+
+Symbol text: C (confidence: 0.990000)
+Symbol text: H (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: R (confidence: 1.000000)
+Symbol text: G (confidence: 0.990000)
+Symbol text: E (confidence: 1.000000)
+Symbol text: S (confidence: 0.990000)
+Word text: CHARGES (confidence: 0.990000)
+
+Symbol text: N (confidence: 0.990000)
+Symbol text: O (confidence: 0.990000)
+Symbol text: N (confidence: 0.990000)
+Word text: NON (confidence: 0.990000)
+
+Symbol text: - (confidence: 0.990000)
+Word text: - (confidence: 0.990000)
+
+Symbol text: T (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: X (confidence: 0.990000)
+Symbol text: A (confidence: 1.000000)
+Symbol text: B (confidence: 0.990000)
+Symbol text: L (confidence: 0.990000)
+Symbol text: E (confidence: 1.000000)
+Word text: TAXABLE (confidence: 0.990000)
+
+
+Paragraph: 
+ AGENCY CHARGES ( TKD ) TRANSPORT CHARGES EDI CHARGES CONCOR CHARGES NON - TAXABLE
+Paragraph Confidence: 0.990000
+Symbol text: N (confidence: 0.530000)
+Word text: N (confidence: 0.530000)
+
+
+Paragraph: 
+ N
+Paragraph Confidence: 0.530000
+Symbol text: 9 (confidence: 0.990000)
+Symbol text: 9 (confidence: 0.990000)
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 7 (confidence: 0.990000)
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Word text: 996712 (confidence: 0.990000)
+
+Symbol text: 9 (confidence: 0.990000)
+Symbol text: 9 (confidence: 0.990000)
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 5 (confidence: 0.990000)
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 1 (confidence: 0.990000)
+Word text: 996511 (confidence: 0.990000)
+
+Symbol text: 9 (confidence: 0.990000)
+Symbol text: 9 (confidence: 0.990000)
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 7 (confidence: 0.990000)
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Word text: 996712 (confidence: 0.990000)
+
+Symbol text: 9 (confidence: 0.990000)
+Symbol text: 9 (confidence: 0.990000)
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 7 (confidence: 0.990000)
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Word text: 996712 (confidence: 0.990000)
+
+
+Paragraph: 
+ 996712 996511 996712 996712
+Paragraph Confidence: 0.990000
+Symbol text: R (confidence: 0.990000)
+Symbol text: a (confidence: 1.000000)
+Symbol text: t (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Word text: Rate (confidence: 0.990000)
+
+Symbol text: ( (confidence: 0.890000)
+Word text: ( (confidence: 0.890000)
+
+Symbol text: % (confidence: 0.880000)
+Word text: % (confidence: 0.880000)
+
+Symbol text: ) (confidence: 0.990000)
+Word text: ) (confidence: 0.990000)
+
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Word text: 18 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: 0 (confidence: 1.000000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 00 (confidence: 0.990000)
+
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Word text: 12 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: 0 (confidence: 1.000000)
+Symbol text: 0 (confidence: 1.000000)
+Word text: 00 (confidence: 1.000000)
+
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Word text: 18 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: 0 (confidence: 1.000000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 00 (confidence: 0.990000)
+
+
+Paragraph: 
+ Rate ( % ) 18 . 00 12 . 00 18 . 00
+Paragraph Confidence: 0.980000
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 1 (confidence: 0.980000)
+Symbol text: 0 (confidence: 0.980000)
+Symbol text: 0 (confidence: 0.980000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 11000 (confidence: 0.980000)
+
+Symbol text: , (confidence: 0.920000)
+Word text: , (confidence: 0.920000)
+
+Symbol text: 0 (confidence: 0.930000)
+Symbol text: 0 (confidence: 0.980000)
+Word text: 00 (confidence: 0.950000)
+
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 68880 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.890000)
+Word text: . (confidence: 0.890000)
+
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 0 (confidence: 1.000000)
+Word text: 00 (confidence: 0.990000)
+
+
+Paragraph: 
+ 11000 , 00 68880 . 00
+Paragraph Confidence: 0.970000
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 100 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.980000)
+Word text: . (confidence: 0.980000)
+
+Symbol text: 0 (confidence: 1.000000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 00 (confidence: 0.990000)
+
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Symbol text: 4 (confidence: 0.950000)
+Word text: 16284 (confidence: 0.980000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: 0 (confidence: 1.000000)
+Symbol text: 0 (confidence: 1.000000)
+Word text: 00 (confidence: 1.000000)
+
+
+Paragraph: 
+ 100 . 00 16284 . 00
+Paragraph Confidence: 0.980000
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 11000 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.960000)
+Word text: . (confidence: 0.960000)
+
+Symbol text: 0 (confidence: 0.980000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 00 (confidence: 0.980000)
+
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 68880 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: 0 (confidence: 0.930000)
+Symbol text: 0 (confidence: 1.000000)
+Word text: 00 (confidence: 0.960000)
+
+
+Paragraph: 
+ 11000 . 00 68880 . 00
+Paragraph Confidence: 0.980000
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 100 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: 0 (confidence: 1.000000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 00 (confidence: 0.990000)
+
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Symbol text: 4 (confidence: 0.990000)
+Word text: 16284 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: 0 (confidence: 1.000000)
+Symbol text: 0 (confidence: 0.910000)
+Word text: 00 (confidence: 0.950000)
+
+
+Paragraph: 
+ 100 . 00 16284 . 00
+Paragraph Confidence: 0.980000
+Symbol text: 1 (confidence: 0.390000)
+Word text: 1 (confidence: 0.390000)
+
+Symbol text: N (confidence: 0.870000)
+Symbol text: o (confidence: 0.910000)
+Symbol text: s (confidence: 0.870000)
+Word text: Nos (confidence: 0.880000)
+
+
+Paragraph: 
+ 1 Nos
+Paragraph Confidence: 0.760000
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 9 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.100000)
+Word text: 1980 (confidence: 0.760000)
+
+Symbol text: , (confidence: 0.390000)
+Word text: , (confidence: 0.390000)
+
+Symbol text: 0 (confidence: 0.920000)
+Symbol text: 0 (confidence: 0.920000)
+Word text: 00 (confidence: 0.920000)
+
+Symbol text: 8 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 5 (confidence: 0.990000)
+Word text: 8265 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.980000)
+Word text: . (confidence: 0.980000)
+
+Symbol text: 6 (confidence: 0.960000)
+Symbol text: 0 (confidence: 0.960000)
+Word text: 60 (confidence: 0.960000)
+
+
+Paragraph: 
+ 1980 , 00 8265 . 60
+Paragraph Confidence: 0.860000
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 8 (confidence: 1.000000)
+Word text: 18 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.980000)
+Word text: . (confidence: 0.980000)
+
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 00 (confidence: 0.990000)
+
+
+Paragraph: 
+ 18 . 00
+Paragraph Confidence: 0.990000
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 9 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 12980 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 0 (confidence: 1.000000)
+Word text: 00 (confidence: 0.990000)
+
+Symbol text: 7 (confidence: 0.550000)
+Symbol text: 7 (confidence: 0.860000)
+Symbol text: 1 (confidence: 0.860000)
+Symbol text: 4 (confidence: 0.860000)
+Symbol text: 5 (confidence: 0.740000)
+Word text: 77145 (confidence: 0.770000)
+
+Symbol text: . (confidence: 0.960000)
+Word text: . (confidence: 0.960000)
+
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 60 (confidence: 0.990000)
+
+
+Paragraph: 
+ 12980 . 00 77145 . 60
+Paragraph Confidence: 0.920000
+Symbol text: 1 (confidence: 0.590000)
+Symbol text: 1 (confidence: 0.920000)
+Symbol text: 8 (confidence: 0.990000)
+Word text: 118 (confidence: 0.830000)
+
+Symbol text: . (confidence: 0.980000)
+Word text: . (confidence: 0.980000)
+
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 00 (confidence: 0.990000)
+
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Symbol text: 4 (confidence: 0.990000)
+Word text: 16284 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 0 (confidence: 1.000000)
+Word text: 00 (confidence: 0.990000)
+
+
+Paragraph: 
+ 118 . 00 16284 . 00
+Paragraph Confidence: 0.950000
+Symbol text: w (confidence: 0.710000)
+Word text: w (confidence: 0.710000)
+
+
+Paragraph: 
+ w
+Paragraph Confidence: 0.710000
+Symbol text: A (confidence: 0.910000)
+Word text: A (confidence: 0.910000)
+
+
+Paragraph: 
+ A
+Paragraph Confidence: 0.910000
+Symbol text: N (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: s (confidence: 0.990000)
+Word text: Nos (confidence: 0.990000)
+
+
+Paragraph: 
+ Nos
+Paragraph Confidence: 0.990000
+Symbol text: M (confidence: 0.930000)
+Symbol text: l (confidence: 0.820000)
+Symbol text: s (confidence: 0.620000)
+Word text: Mls (confidence: 0.790000)
+
+Symbol text: . (confidence: 0.580000)
+Word text: . (confidence: 0.580000)
+
+Symbol text: K (confidence: 0.890000)
+Symbol text: i (confidence: 0.890000)
+Symbol text: n (confidence: 0.940000)
+Symbol text: g (confidence: 0.940000)
+Symbol text: d (confidence: 0.930000)
+Symbol text: l (confidence: 0.770000)
+Symbol text: e (confidence: 0.960000)
+Symbol text: d (confidence: 0.970000)
+Symbol text: e (confidence: 0.970000)
+Symbol text: r (confidence: 0.960000)
+Word text: Kingdleder (confidence: 0.920000)
+
+Symbol text: t (confidence: 0.930000)
+Symbol text: h (confidence: 0.910000)
+Symbol text: e (confidence: 0.970000)
+Symbol text: i (confidence: 0.120000)
+Symbol text: i (confidence: 0.630000)
+Symbol text: a (confidence: 0.460000)
+Symbol text: n (confidence: 0.040000)
+Symbol text: a (confidence: 0.510000)
+Word text: theiiana (confidence: 0.570000)
+
+Symbol text: C (confidence: 0.030000)
+Symbol text: o (confidence: 0.820000)
+Symbol text: l (confidence: 0.170000)
+Symbol text: l (confidence: 0.090000)
+Symbol text: d (confidence: 0.640000)
+Symbol text: e (confidence: 0.100000)
+Word text: Collde (confidence: 0.300000)
+
+Symbol text: p (confidence: 0.730000)
+Symbol text: l (confidence: 0.910000)
+Symbol text: o (confidence: 0.920000)
+Word text: plo (confidence: 0.850000)
+
+Symbol text: N (confidence: 0.640000)
+Symbol text: o (confidence: 0.740000)
+Symbol text: l (confidence: 0.780000)
+Word text: Nol (confidence: 0.720000)
+
+Symbol text: : (confidence: 0.110000)
+Word text: : (confidence: 0.110000)
+
+Symbol text: 4 (confidence: 0.900000)
+Symbol text: 4 (confidence: 0.880000)
+Symbol text: 0 (confidence: 0.880000)
+Word text: 440 (confidence: 0.880000)
+
+Symbol text: d (confidence: 0.110000)
+Symbol text: o (confidence: 0.790000)
+Symbol text: o (confidence: 0.500000)
+Symbol text: d (confidence: 0.340000)
+Word text: dood (confidence: 0.430000)
+
+Symbol text: G (confidence: 0.150000)
+Symbol text: K (confidence: 0.040000)
+Word text: GK (confidence: 0.090000)
+
+
+Paragraph: 
+ Mls . Kingdleder theiiana Collde plo Nol : 440 dood GK
+Paragraph Confidence: 0.630000
+Symbol text: I (confidence: 0.990000)
+Symbol text: n (confidence: 0.990000)
+Symbol text: v (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: i (confidence: 1.000000)
+Symbol text: c (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Word text: Invoice (confidence: 0.990000)
+
+Symbol text: V (confidence: 0.990000)
+Symbol text: a (confidence: 0.990000)
+Symbol text: l (confidence: 0.990000)
+Symbol text: u (confidence: 0.990000)
+Symbol text: e (confidence: 1.000000)
+Word text: Value (confidence: 0.990000)
+
+Symbol text: ( (confidence: 0.990000)
+Word text: ( (confidence: 0.990000)
+
+Symbol text: I (confidence: 0.990000)
+Symbol text: n (confidence: 0.990000)
+Word text: In (confidence: 0.990000)
+
+Symbol text: W (confidence: 0.960000)
+Symbol text: o (confidence: 0.980000)
+Symbol text: r (confidence: 0.990000)
+Symbol text: d (confidence: 0.990000)
+Symbol text: s (confidence: 0.980000)
+Word text: Words (confidence: 0.980000)
+
+Symbol text: ) (confidence: 0.960000)
+Word text: ) (confidence: 0.960000)
+
+
+Paragraph: 
+ Invoice Value ( In Words )
+Paragraph Confidence: 0.980000
+Symbol text: R (confidence: 0.980000)
+Symbol text: u (confidence: 0.990000)
+Symbol text: p (confidence: 0.990000)
+Symbol text: e (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Symbol text: s (confidence: 0.990000)
+Word text: Rupees (confidence: 0.990000)
+
+Symbol text: O (confidence: 0.990000)
+Symbol text: n (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Word text: One (confidence: 0.990000)
+
+Symbol text: L (confidence: 0.990000)
+Symbol text: a (confidence: 0.990000)
+Symbol text: k (confidence: 0.990000)
+Symbol text: h (confidence: 0.990000)
+Word text: Lakh (confidence: 0.990000)
+
+Symbol text: S (confidence: 1.000000)
+Symbol text: i (confidence: 0.990000)
+Symbol text: x (confidence: 0.990000)
+Word text: Six (confidence: 0.990000)
+
+Symbol text: T (confidence: 0.990000)
+Symbol text: h (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: u (confidence: 0.990000)
+Symbol text: s (confidence: 1.000000)
+Symbol text: a (confidence: 1.000000)
+Symbol text: n (confidence: 1.000000)
+Symbol text: d (confidence: 1.000000)
+Word text: Thousand (confidence: 0.990000)
+
+Symbol text: F (confidence: 0.990000)
+Symbol text: i (confidence: 0.990000)
+Symbol text: v (confidence: 0.910000)
+Symbol text: e (confidence: 1.000000)
+Word text: Five (confidence: 0.970000)
+
+Symbol text: H (confidence: 0.990000)
+Symbol text: u (confidence: 1.000000)
+Symbol text: n (confidence: 1.000000)
+Symbol text: d (confidence: 0.990000)
+Symbol text: r (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Symbol text: d (confidence: 1.000000)
+Word text: Hundred (confidence: 0.990000)
+
+Symbol text: a (confidence: 0.990000)
+Symbol text: n (confidence: 1.000000)
+Symbol text: d (confidence: 1.000000)
+Word text: and (confidence: 0.990000)
+
+Symbol text: T (confidence: 0.970000)
+Symbol text: w (confidence: 0.970000)
+Symbol text: e (confidence: 0.990000)
+Symbol text: n (confidence: 0.990000)
+Symbol text: t (confidence: 1.000000)
+Symbol text: y (confidence: 0.990000)
+Word text: Twenty (confidence: 0.980000)
+
+Symbol text: E (confidence: 0.890000)
+Symbol text: i (confidence: 0.970000)
+Symbol text: g (confidence: 1.000000)
+Symbol text: h (confidence: 1.000000)
+Symbol text: t (confidence: 1.000000)
+Word text: Eight (confidence: 0.970000)
+
+Symbol text: o (confidence: 0.880000)
+Symbol text: n (confidence: 0.990000)
+Symbol text: l (confidence: 0.980000)
+Symbol text: y (confidence: 0.990000)
+Word text: only (confidence: 0.960000)
+
+Symbol text: / (confidence: 0.830000)
+Word text: / (confidence: 0.830000)
+
+
+Paragraph: 
+ Rupees One Lakh Six Thousand Five Hundred and Twenty Eight only /
+Paragraph Confidence: 0.980000
+Symbol text: 9 (confidence: 0.990000)
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 4 (confidence: 0.990000)
+Word text: 96264 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.970000)
+Word text: . (confidence: 0.970000)
+
+Symbol text: 0 (confidence: 0.980000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 00 (confidence: 0.980000)
+
+
+Paragraph: 
+ 96264 . 00
+Paragraph Confidence: 0.980000
+Symbol text: 0 (confidence: 0.990000)
+Word text: 0 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.960000)
+Word text: . (confidence: 0.960000)
+
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 00 (confidence: 0.990000)
+
+
+Paragraph: 
+ 0 . 00
+Paragraph Confidence: 0.980000
+Symbol text: N (confidence: 0.990000)
+Symbol text: o (confidence: 1.000000)
+Symbol text: t (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Word text: Note (confidence: 0.990000)
+
+
+Paragraph: 
+ Note
+Paragraph Confidence: 0.990000
+Symbol text: C (confidence: 0.920000)
+Symbol text: o (confidence: 0.950000)
+Symbol text: n (confidence: 0.960000)
+Symbol text: t (confidence: 0.960000)
+Symbol text: a (confidence: 0.950000)
+Symbol text: i (confidence: 0.920000)
+Symbol text: n (confidence: 0.960000)
+Symbol text: e (confidence: 1.000000)
+Symbol text: r (confidence: 1.000000)
+Word text: Container (confidence: 0.950000)
+
+Symbol text: N (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Word text: No (confidence: 0.990000)
+
+Symbol text: : (confidence: 0.920000)
+Word text: : (confidence: 0.920000)
+
+Symbol text: D (confidence: 0.930000)
+Symbol text: R (confidence: 0.930000)
+Symbol text: Y (confidence: 0.930000)
+Symbol text: U (confidence: 0.990000)
+Symbol text: 9 (confidence: 0.990000)
+Symbol text: 7 (confidence: 0.990000)
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 9 (confidence: 0.990000)
+Symbol text: 8 (confidence: 1.000000)
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Word text: DRYU9719868 (confidence: 0.970000)
+
+Symbol text: , (confidence: 0.990000)
+Word text: , (confidence: 0.990000)
+
+Symbol text: E (confidence: 0.990000)
+Symbol text: S (confidence: 0.990000)
+Symbol text: P (confidence: 0.990000)
+Symbol text: U (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 0 (confidence: 1.000000)
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: ESPU8006160 (confidence: 0.990000)
+
+
+Paragraph: 
+ Container No : DRYU9719868 , ESPU8006160
+Paragraph Confidence: 0.970000
+Symbol text: T (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: t (confidence: 0.990000)
+Symbol text: a (confidence: 1.000000)
+Symbol text: l (confidence: 1.000000)
+Word text: Total (confidence: 0.990000)
+
+Symbol text: A (confidence: 0.990000)
+Symbol text: m (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: u (confidence: 0.990000)
+Symbol text: n (confidence: 0.990000)
+Symbol text: t (confidence: 1.000000)
+Word text: Amount (confidence: 0.990000)
+
+Symbol text: B (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Symbol text: f (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: r (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Word text: Before (confidence: 0.990000)
+
+Symbol text: T (confidence: 0.990000)
+Symbol text: a (confidence: 0.990000)
+Symbol text: x (confidence: 0.990000)
+Word text: Tax (confidence: 0.990000)
+
+
+Paragraph: 
+ Total Amount Before Tax
+Paragraph Confidence: 0.990000
+Symbol text: A (confidence: 0.990000)
+Symbol text: d (confidence: 0.990000)
+Symbol text: d (confidence: 0.990000)
+Word text: Add (confidence: 0.990000)
+
+Symbol text: : (confidence: 0.480000)
+Word text: : (confidence: 0.480000)
+
+Symbol text: C (confidence: 0.870000)
+Symbol text: G (confidence: 0.830000)
+Symbol text: S (confidence: 0.970000)
+Symbol text: T (confidence: 0.980000)
+Word text: CGST (confidence: 0.910000)
+
+Symbol text: A (confidence: 0.990000)
+Symbol text: d (confidence: 0.990000)
+Symbol text: d (confidence: 0.990000)
+Word text: Add (confidence: 0.990000)
+
+Symbol text: : (confidence: 0.800000)
+Word text: : (confidence: 0.800000)
+
+Symbol text: S (confidence: 0.730000)
+Symbol text: G (confidence: 0.750000)
+Symbol text: S (confidence: 0.910000)
+Symbol text: T (confidence: 0.920000)
+Word text: SGST (confidence: 0.820000)
+
+
+Paragraph: 
+ Add : CGST Add : SGST
+Paragraph Confidence: 0.880000
+Symbol text: A (confidence: 0.990000)
+Symbol text: d (confidence: 0.990000)
+Symbol text: d (confidence: 1.000000)
+Word text: Add (confidence: 0.990000)
+
+Symbol text: : (confidence: 0.930000)
+Word text: : (confidence: 0.930000)
+
+Symbol text: I (confidence: 0.910000)
+Symbol text: G (confidence: 0.940000)
+Symbol text: S (confidence: 0.960000)
+Symbol text: T (confidence: 0.990000)
+Word text: IGST (confidence: 0.950000)
+
+Symbol text: T (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: t (confidence: 0.990000)
+Symbol text: a (confidence: 1.000000)
+Symbol text: l (confidence: 1.000000)
+Word text: Total (confidence: 0.990000)
+
+Symbol text: A (confidence: 0.990000)
+Symbol text: m (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: u (confidence: 0.990000)
+Symbol text: n (confidence: 0.990000)
+Symbol text: t (confidence: 1.000000)
+Word text: Amount (confidence: 0.990000)
+
+Symbol text: G (confidence: 0.990000)
+Symbol text: S (confidence: 0.990000)
+Symbol text: T (confidence: 0.990000)
+Word text: GST (confidence: 0.990000)
+
+
+Paragraph: 
+ Add : IGST Total Amount GST
+Paragraph Confidence: 0.980000
+Symbol text: 0 (confidence: 0.990000)
+Word text: 0 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.980000)
+Word text: . (confidence: 0.980000)
+
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 00 (confidence: 0.990000)
+
+
+Paragraph: 
+ 0 . 00
+Paragraph Confidence: 0.980000
+Symbol text: S (confidence: 0.990000)
+Symbol text: u (confidence: 1.000000)
+Symbol text: p (confidence: 0.990000)
+Symbol text: p (confidence: 0.990000)
+Symbol text: l (confidence: 0.990000)
+Symbol text: i (confidence: 0.990000)
+Symbol text: e (confidence: 1.000000)
+Symbol text: r (confidence: 1.000000)
+Word text: Supplier (confidence: 0.990000)
+
+Symbol text: I (confidence: 0.960000)
+Symbol text: n (confidence: 0.980000)
+Symbol text: v (confidence: 0.980000)
+Word text: Inv (confidence: 0.970000)
+
+Symbol text: N (confidence: 0.970000)
+Symbol text: o (confidence: 0.990000)
+Word text: No (confidence: 0.980000)
+
+Symbol text: : (confidence: 0.860000)
+Word text: : (confidence: 0.860000)
+
+Symbol text: 2 (confidence: 0.940000)
+Symbol text: 0 (confidence: 0.910000)
+Symbol text: 1 (confidence: 0.980000)
+Symbol text: 8 (confidence: 0.910000)
+Symbol text: 0 (confidence: 0.910000)
+Symbol text: 5 (confidence: 0.970000)
+Symbol text: 0 (confidence: 0.980000)
+Symbol text: 4 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Word text: 201805048 (confidence: 0.950000)
+
+
+Paragraph: 
+ Supplier Inv No : 201805048
+Paragraph Confidence: 0.960000
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 3 (confidence: 0.990000)
+Word text: 10263 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.880000)
+Word text: . (confidence: 0.880000)
+
+Symbol text: 6 (confidence: 0.970000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 60 (confidence: 0.980000)
+
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 3 (confidence: 0.990000)
+Word text: 10263 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 60 (confidence: 0.990000)
+
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 6 (confidence: 0.970000)
+Symbol text: 5 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 7 (confidence: 0.990000)
+Word text: 106527 (confidence: 0.980000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Word text: 60 (confidence: 0.990000)
+
+
+Paragraph: 
+ 10263 . 60 10263 . 60 106527 . 60
+Paragraph Confidence: 0.980000
+Symbol text: V (confidence: 0.320000)
+Symbol text: W (confidence: 0.850000)
+Word text: VW (confidence: 0.580000)
+
+
+Paragraph: 
+ VW
+Paragraph Confidence: 0.580000
+Symbol text: B (confidence: 0.990000)
+Symbol text: a (confidence: 1.000000)
+Symbol text: n (confidence: 1.000000)
+Symbol text: k (confidence: 0.990000)
+Word text: Bank (confidence: 0.990000)
+
+Symbol text: D (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Symbol text: t (confidence: 0.980000)
+Symbol text: a (confidence: 1.000000)
+Symbol text: i (confidence: 0.990000)
+Symbol text: l (confidence: 1.000000)
+Symbol text: s (confidence: 1.000000)
+Word text: Details (confidence: 0.990000)
+
+Symbol text: : (confidence: 0.920000)
+Word text: : (confidence: 0.920000)
+
+Symbol text: B (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: N (confidence: 0.990000)
+Symbol text: K (confidence: 0.990000)
+Word text: BANK (confidence: 0.990000)
+
+Symbol text: N (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: M (confidence: 0.990000)
+Symbol text: E (confidence: 0.990000)
+Word text: NAME (confidence: 0.990000)
+
+Symbol text: : (confidence: 0.940000)
+Word text: : (confidence: 0.940000)
+
+Symbol text: - (confidence: 0.910000)
+Word text: - (confidence: 0.910000)
+
+Symbol text: I (confidence: 0.910000)
+Symbol text: D (confidence: 0.820000)
+Symbol text: B (confidence: 0.950000)
+Symbol text: I (confidence: 0.980000)
+Word text: IDBI (confidence: 0.910000)
+
+Symbol text: B (confidence: 0.990000)
+Symbol text: A (confidence: 0.960000)
+Symbol text: N (confidence: 1.000000)
+Symbol text: K (confidence: 1.000000)
+Word text: BANK (confidence: 0.980000)
+
+Symbol text: , (confidence: 0.880000)
+Word text: , (confidence: 0.880000)
+
+Symbol text: B (confidence: 0.850000)
+Symbol text: R (confidence: 0.910000)
+Symbol text: A (confidence: 0.960000)
+Symbol text: N (confidence: 0.910000)
+Symbol text: C (confidence: 0.970000)
+Symbol text: H (confidence: 0.980000)
+Word text: BRANCH (confidence: 0.930000)
+
+Symbol text: : (confidence: 0.850000)
+Word text: : (confidence: 0.850000)
+
+Symbol text: - (confidence: 0.870000)
+Word text: - (confidence: 0.870000)
+
+Symbol text: V (confidence: 0.910000)
+Symbol text: I (confidence: 0.910000)
+Symbol text: J (confidence: 0.920000)
+Symbol text: A (confidence: 0.980000)
+Symbol text: Y (confidence: 0.970000)
+Word text: VIJAY (confidence: 0.930000)
+
+Symbol text: E (confidence: 0.920000)
+Symbol text: N (confidence: 0.990000)
+Symbol text: C (confidence: 0.990000)
+Symbol text: L (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: V (confidence: 1.000000)
+Symbol text: E (confidence: 1.000000)
+Word text: ENCLAVE (confidence: 0.980000)
+
+Symbol text: D (confidence: 0.990000)
+Symbol text: E (confidence: 1.000000)
+Symbol text: L (confidence: 0.990000)
+Symbol text: H (confidence: 0.990000)
+Symbol text: I (confidence: 0.940000)
+Word text: DELHI (confidence: 0.980000)
+
+Symbol text: - (confidence: 0.990000)
+Word text: - (confidence: 0.990000)
+
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 4 (confidence: 0.990000)
+Symbol text: 5 (confidence: 0.990000)
+Word text: 110045 (confidence: 0.990000)
+
+Symbol text: , (confidence: 0.980000)
+Word text: , (confidence: 0.980000)
+
+Symbol text: A (confidence: 0.800000)
+Symbol text: C (confidence: 0.180000)
+Symbol text: C (confidence: 0.920000)
+Symbol text: O (confidence: 0.930000)
+Symbol text: U (confidence: 0.930000)
+Symbol text: N (confidence: 0.960000)
+Symbol text: T (confidence: 0.980000)
+Word text: ACCOUNT (confidence: 0.810000)
+
+Symbol text: N (confidence: 0.990000)
+Symbol text: O (confidence: 0.930000)
+Word text: NO (confidence: 0.960000)
+
+Symbol text: : (confidence: 0.990000)
+Word text: : (confidence: 0.990000)
+
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 9 (confidence: 0.990000)
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 9 (confidence: 0.990000)
+Word text: 0169102000012209 (confidence: 0.990000)
+
+Symbol text: I (confidence: 0.990000)
+Symbol text: F (confidence: 0.990000)
+Symbol text: S (confidence: 0.990000)
+Symbol text: C (confidence: 0.990000)
+Symbol text: C (confidence: 0.870000)
+Symbol text: o (confidence: 0.870000)
+Symbol text: d (confidence: 0.910000)
+Symbol text: e (confidence: 1.000000)
+Word text: IFSCCode (confidence: 0.950000)
+
+Symbol text: : (confidence: 0.910000)
+Word text: : (confidence: 0.910000)
+
+Symbol text: I (confidence: 0.790000)
+Symbol text: B (confidence: 0.820000)
+Symbol text: K (confidence: 0.820000)
+Symbol text: L (confidence: 0.900000)
+Symbol text: 0 (confidence: 0.930000)
+Symbol text: 0 (confidence: 1.000000)
+Symbol text: 0 (confidence: 1.000000)
+Symbol text: 0 (confidence: 1.000000)
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 9 (confidence: 1.000000)
+Word text: IBKL0000169 (confidence: 0.930000)
+
+
+Paragraph: 
+ Bank Details : BANK NAME : - IDBI BANK , BRANCH : - VIJAY ENCLAVE DELHI - 110045 , ACCOUNT NO : 0169102000012209 IFSCCode : IBKL0000169
+Paragraph Confidence: 0.950000
+Symbol text: 0 (confidence: 0.990000)
+Word text: 0 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 0 (confidence: 1.000000)
+Word text: 00 (confidence: 0.990000)
+
+
+Paragraph: 
+ 0 . 00
+Paragraph Confidence: 0.990000
+Symbol text: T (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: t (confidence: 0.990000)
+Symbol text: a (confidence: 1.000000)
+Symbol text: l (confidence: 1.000000)
+Word text: Total (confidence: 0.990000)
+
+Symbol text: A (confidence: 0.990000)
+Symbol text: m (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: u (confidence: 1.000000)
+Symbol text: n (confidence: 1.000000)
+Symbol text: t (confidence: 1.000000)
+Word text: Amount (confidence: 0.990000)
+
+Symbol text: A (confidence: 0.990000)
+Symbol text: f (confidence: 0.990000)
+Symbol text: t (confidence: 0.990000)
+Symbol text: e (confidence: 1.000000)
+Symbol text: r (confidence: 1.000000)
+Word text: After (confidence: 0.990000)
+
+Symbol text: T (confidence: 0.990000)
+Symbol text: a (confidence: 0.990000)
+Symbol text: x (confidence: 0.540000)
+Word text: Tax (confidence: 0.840000)
+
+
+Paragraph: 
+ Total Amount After Tax
+Paragraph Confidence: 0.970000
+Symbol text: P (confidence: 0.990000)
+Symbol text: a (confidence: 0.990000)
+Symbol text: y (confidence: 0.990000)
+Symbol text: m (confidence: 0.990000)
+Symbol text: e (confidence: 1.000000)
+Symbol text: n (confidence: 1.000000)
+Symbol text: t (confidence: 1.000000)
+Word text: Payment (confidence: 0.990000)
+
+Symbol text: R (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Symbol text: c (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Symbol text: i (confidence: 1.000000)
+Symbol text: v (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Symbol text: d (confidence: 0.990000)
+Word text: Received (confidence: 0.990000)
+
+Symbol text: R (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: u (confidence: 0.990000)
+Symbol text: n (confidence: 0.990000)
+Symbol text: d (confidence: 1.000000)
+Word text: Round (confidence: 0.990000)
+
+Symbol text: O (confidence: 0.990000)
+Symbol text: f (confidence: 0.990000)
+Symbol text: f (confidence: 0.990000)
+Word text: Off (confidence: 0.990000)
+
+Symbol text: V (confidence: 0.960000)
+Symbol text: a (confidence: 0.980000)
+Symbol text: l (confidence: 0.990000)
+Symbol text: u (confidence: 0.980000)
+Symbol text: e (confidence: 1.000000)
+Word text: Value (confidence: 0.980000)
+
+
+Paragraph: 
+ Payment Received Round Off Value
+Paragraph Confidence: 0.990000
+Symbol text: N (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Symbol text: t (confidence: 0.990000)
+Word text: Net (confidence: 0.990000)
+
+Symbol text: A (confidence: 0.990000)
+Symbol text: m (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: u (confidence: 1.000000)
+Symbol text: n (confidence: 0.990000)
+Symbol text: t (confidence: 1.000000)
+Word text: Amount (confidence: 0.990000)
+
+
+Paragraph: 
+ Net Amount
+Paragraph Confidence: 0.990000
+Symbol text: 0 (confidence: 0.990000)
+Word text: 0 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.980000)
+Word text: . (confidence: 0.980000)
+
+Symbol text: 4 (confidence: 0.980000)
+Symbol text: 0 (confidence: 0.980000)
+Word text: 40 (confidence: 0.980000)
+
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 5 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.990000)
+Word text: 106528 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: 0 (confidence: 1.000000)
+Symbol text: 0 (confidence: 1.000000)
+Word text: 00 (confidence: 1.000000)
+
+
+Paragraph: 
+ 0 . 40 106528 . 00
+Paragraph Confidence: 0.980000
+Symbol text: ( (confidence: 0.990000)
+Word text: ( (confidence: 0.990000)
+
+Symbol text: C (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: m (confidence: 0.990000)
+Symbol text: m (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: n (confidence: 1.000000)
+Word text: Common (confidence: 0.990000)
+
+Symbol text: S (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Symbol text: a (confidence: 0.990000)
+Symbol text: l (confidence: 0.990000)
+Word text: Seal (confidence: 0.990000)
+
+Symbol text: ) (confidence: 0.960000)
+Word text: ) (confidence: 0.960000)
+
+
+Paragraph: 
+ ( Common Seal )
+Paragraph Confidence: 0.980000
+Symbol text: C (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Symbol text: r (confidence: 0.990000)
+Symbol text: t (confidence: 0.990000)
+Symbol text: i (confidence: 1.000000)
+Symbol text: f (confidence: 0.990000)
+Symbol text: i (confidence: 0.670000)
+Symbol text: e (confidence: 0.960000)
+Symbol text: d (confidence: 0.970000)
+Word text: Certified (confidence: 0.950000)
+
+Symbol text: t (confidence: 0.930000)
+Symbol text: h (confidence: 0.970000)
+Symbol text: a (confidence: 0.960000)
+Symbol text: t (confidence: 0.970000)
+Word text: that (confidence: 0.950000)
+
+Symbol text: t (confidence: 0.990000)
+Symbol text: h (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Word text: the (confidence: 0.990000)
+
+Symbol text: p (confidence: 0.990000)
+Symbol text: a (confidence: 1.000000)
+Symbol text: r (confidence: 0.260000)
+Symbol text: t (confidence: 0.940000)
+Symbol text: i (confidence: 1.000000)
+Symbol text: c (confidence: 1.000000)
+Symbol text: u (confidence: 0.990000)
+Symbol text: l (confidence: 1.000000)
+Symbol text: a (confidence: 1.000000)
+Symbol text: r (confidence: 1.000000)
+Symbol text: s (confidence: 0.990000)
+Word text: particulars (confidence: 0.920000)
+
+Symbol text: g (confidence: 0.990000)
+Symbol text: i (confidence: 0.990000)
+Symbol text: v (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Symbol text: n (confidence: 1.000000)
+Word text: given (confidence: 0.990000)
+
+Symbol text: a (confidence: 1.000000)
+Symbol text: b (confidence: 0.990000)
+Symbol text: o (confidence: 1.000000)
+Symbol text: v (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Word text: above (confidence: 0.990000)
+
+Symbol text: a (confidence: 1.000000)
+Symbol text: r (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Word text: are (confidence: 0.990000)
+
+Symbol text: t (confidence: 1.000000)
+Symbol text: r (confidence: 0.990000)
+Symbol text: u (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Word text: true (confidence: 0.990000)
+
+Symbol text: a (confidence: 0.990000)
+Symbol text: n (confidence: 1.000000)
+Symbol text: d (confidence: 1.000000)
+Word text: and (confidence: 0.990000)
+
+Symbol text: c (confidence: 0.990000)
+Symbol text: o (confidence: 1.000000)
+Symbol text: r (confidence: 0.990000)
+Symbol text: r (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Symbol text: c (confidence: 0.990000)
+Symbol text: t (confidence: 1.000000)
+Word text: correct (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.870000)
+Word text: . (confidence: 0.870000)
+
+
+Paragraph: 
+ Certified that the particulars given above are true and correct .
+Paragraph Confidence: 0.960000
+Symbol text: L (confidence: 0.080000)
+Symbol text: M (confidence: 0.830000)
+Symbol text: P (confidence: 0.890000)
+Symbol text: E (confidence: 0.890000)
+Symbol text: X (confidence: 0.890000)
+Word text: LMPEX (confidence: 0.710000)
+
+Symbol text: P (confidence: 0.920000)
+Symbol text: V (confidence: 0.830000)
+Symbol text: T (confidence: 0.990000)
+Word text: PVT (confidence: 0.910000)
+
+Symbol text: L (confidence: 1.000000)
+Symbol text: T (confidence: 1.000000)
+Symbol text: D (confidence: 1.000000)
+Word text: LTD (confidence: 1.000000)
+
+
+Paragraph: 
+ LMPEX PVT LTD
+Paragraph Confidence: 0.840000
+Symbol text: E (confidence: 0.990000)
+Word text: E (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.980000)
+Word text: . (confidence: 0.980000)
+
+Symbol text: & (confidence: 0.950000)
+Word text: & (confidence: 0.950000)
+
+Symbol text: O (confidence: 0.940000)
+Word text: O (confidence: 0.940000)
+
+Symbol text: . (confidence: 0.920000)
+Word text: . (confidence: 0.920000)
+
+Symbol text: E (confidence: 0.790000)
+Word text: E (confidence: 0.790000)
+
+Symbol text: . (confidence: 0.680000)
+Word text: . (confidence: 0.680000)
+
+Symbol text: 1 (confidence: 0.990000)
+Word text: 1 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.980000)
+Word text: . (confidence: 0.980000)
+
+Symbol text: I (confidence: 0.850000)
+Symbol text: n (confidence: 0.860000)
+Symbol text: c (confidence: 0.840000)
+Symbol text: a (confidence: 0.890000)
+Symbol text: s (confidence: 0.870000)
+Symbol text: e (confidence: 0.870000)
+Word text: Incase (confidence: 0.860000)
+
+Symbol text: o (confidence: 0.990000)
+Symbol text: f (confidence: 1.000000)
+Word text: of (confidence: 0.990000)
+
+Symbol text: a (confidence: 0.990000)
+Symbol text: n (confidence: 1.000000)
+Symbol text: y (confidence: 1.000000)
+Word text: any (confidence: 0.990000)
+
+Symbol text: d (confidence: 0.990000)
+Symbol text: i (confidence: 1.000000)
+Symbol text: s (confidence: 1.000000)
+Symbol text: p (confidence: 0.990000)
+Symbol text: u (confidence: 1.000000)
+Symbol text: t (confidence: 0.900000)
+Symbol text: e (confidence: 1.000000)
+Word text: dispute (confidence: 0.980000)
+
+Symbol text: o (confidence: 0.990000)
+Symbol text: n (confidence: 0.990000)
+Word text: on (confidence: 0.990000)
+
+Symbol text: t (confidence: 0.990000)
+Symbol text: h (confidence: 1.000000)
+Symbol text: i (confidence: 0.990000)
+Symbol text: s (confidence: 1.000000)
+Word text: this (confidence: 0.990000)
+
+Symbol text: b (confidence: 0.990000)
+Symbol text: i (confidence: 0.960000)
+Symbol text: l (confidence: 0.990000)
+Symbol text: l (confidence: 0.990000)
+Word text: bill (confidence: 0.980000)
+
+Symbol text: , (confidence: 0.760000)
+Word text: , (confidence: 0.760000)
+
+Symbol text: t (confidence: 0.940000)
+Symbol text: h (confidence: 0.990000)
+Symbol text: e (confidence: 0.980000)
+Word text: the (confidence: 0.970000)
+
+Symbol text: s (confidence: 0.950000)
+Symbol text: a (confidence: 0.950000)
+Symbol text: m (confidence: 0.980000)
+Symbol text: e (confidence: 1.000000)
+Word text: same (confidence: 0.970000)
+
+Symbol text: m (confidence: 0.990000)
+Symbol text: u (confidence: 0.990000)
+Symbol text: s (confidence: 1.000000)
+Symbol text: t (confidence: 1.000000)
+Word text: must (confidence: 0.990000)
+
+Symbol text: b (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Word text: be (confidence: 1.000000)
+
+Symbol text: r (confidence: 0.990000)
+Symbol text: e (confidence: 1.000000)
+Symbol text: p (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: r (confidence: 1.000000)
+Symbol text: t (confidence: 1.000000)
+Symbol text: e (confidence: 0.990000)
+Symbol text: d (confidence: 1.000000)
+Word text: reported (confidence: 0.990000)
+
+Symbol text: t (confidence: 1.000000)
+Symbol text: o (confidence: 1.000000)
+Word text: to (confidence: 1.000000)
+
+Symbol text: u (confidence: 0.990000)
+Symbol text: s (confidence: 1.000000)
+Word text: us (confidence: 0.990000)
+
+Symbol text: w (confidence: 0.990000)
+Symbol text: i (confidence: 0.990000)
+Symbol text: t (confidence: 1.000000)
+Symbol text: h (confidence: 1.000000)
+Symbol text: i (confidence: 0.990000)
+Symbol text: n (confidence: 1.000000)
+Word text: within (confidence: 0.990000)
+
+Symbol text: 0 (confidence: 0.990000)
+Symbol text: 7 (confidence: 0.990000)
+Word text: 07 (confidence: 0.990000)
+
+Symbol text: d (confidence: 0.990000)
+Symbol text: a (confidence: 0.990000)
+Symbol text: y (confidence: 0.990000)
+Symbol text: s (confidence: 0.930000)
+Word text: days (confidence: 0.970000)
+
+Symbol text: f (confidence: 0.990000)
+Symbol text: r (confidence: 1.000000)
+Symbol text: o (confidence: 1.000000)
+Symbol text: m (confidence: 1.000000)
+Word text: from (confidence: 0.990000)
+
+Symbol text: t (confidence: 0.970000)
+Symbol text: h (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Word text: the (confidence: 0.990000)
+
+Symbol text: r (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Symbol text: c (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Symbol text: i (confidence: 1.000000)
+Symbol text: p (confidence: 0.990000)
+Symbol text: t (confidence: 1.000000)
+Word text: receipt (confidence: 0.990000)
+
+Symbol text: o (confidence: 1.000000)
+Symbol text: f (confidence: 1.000000)
+Word text: of (confidence: 1.000000)
+
+Symbol text: b (confidence: 0.990000)
+Symbol text: i (confidence: 0.990000)
+Symbol text: l (confidence: 0.990000)
+Symbol text: l (confidence: 0.990000)
+Word text: bill (confidence: 0.990000)
+
+Symbol text: a (confidence: 0.990000)
+Symbol text: n (confidence: 1.000000)
+Symbol text: d (confidence: 0.990000)
+Word text: and (confidence: 0.990000)
+
+Symbol text: s (confidence: 0.990000)
+Symbol text: u (confidence: 0.990000)
+Symbol text: b (confidence: 0.990000)
+Symbol text: j (confidence: 0.990000)
+Symbol text: e (confidence: 1.000000)
+Symbol text: c (confidence: 1.000000)
+Symbol text: t (confidence: 0.690000)
+Word text: subject (confidence: 0.950000)
+
+Symbol text: t (confidence: 1.000000)
+Symbol text: o (confidence: 1.000000)
+Word text: to (confidence: 1.000000)
+
+Symbol text: D (confidence: 0.990000)
+Symbol text: e (confidence: 1.000000)
+Symbol text: l (confidence: 0.990000)
+Symbol text: h (confidence: 0.940000)
+Symbol text: i (confidence: 1.000000)
+Word text: Delhi (confidence: 0.980000)
+
+Symbol text: j (confidence: 0.870000)
+Symbol text: u (confidence: 0.940000)
+Symbol text: r (confidence: 0.940000)
+Symbol text: i (confidence: 0.700000)
+Symbol text: s (confidence: 1.000000)
+Symbol text: d (confidence: 0.990000)
+Symbol text: i (confidence: 1.000000)
+Symbol text: c (confidence: 1.000000)
+Symbol text: t (confidence: 1.000000)
+Symbol text: i (confidence: 1.000000)
+Symbol text: o (confidence: 1.000000)
+Symbol text: n (confidence: 1.000000)
+Word text: jurisdiction (confidence: 0.950000)
+
+Symbol text: o (confidence: 0.970000)
+Symbol text: n (confidence: 1.000000)
+Symbol text: l (confidence: 0.990000)
+Symbol text: y (confidence: 1.000000)
+Word text: only (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: 2 (confidence: 0.990000)
+Word text: 2 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: A (confidence: 0.980000)
+Symbol text: n (confidence: 0.990000)
+Symbol text: y (confidence: 0.970000)
+Word text: Any (confidence: 0.980000)
+
+Symbol text: n (confidence: 0.970000)
+Symbol text: o (confidence: 0.980000)
+Symbol text: t (confidence: 0.990000)
+Symbol text: i (confidence: 1.000000)
+Symbol text: c (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Word text: notice (confidence: 0.990000)
+
+Symbol text: o (confidence: 0.990000)
+Symbol text: f (confidence: 1.000000)
+Word text: of (confidence: 0.990000)
+
+Symbol text: d (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Symbol text: m (confidence: 0.990000)
+Symbol text: a (confidence: 0.990000)
+Symbol text: n (confidence: 1.000000)
+Symbol text: d (confidence: 1.000000)
+Word text: demand (confidence: 0.990000)
+
+Symbol text: u (confidence: 0.990000)
+Symbol text: n (confidence: 1.000000)
+Symbol text: d (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Symbol text: r (confidence: 1.000000)
+Word text: under (confidence: 0.990000)
+
+Symbol text: S (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Symbol text: c (confidence: 0.990000)
+Symbol text: t (confidence: 1.000000)
+Symbol text: i (confidence: 1.000000)
+Symbol text: o (confidence: 1.000000)
+Symbol text: n (confidence: 0.990000)
+Word text: Section (confidence: 0.990000)
+
+Symbol text: 2 (confidence: 0.990000)
+Symbol text: 8 (confidence: 0.580000)
+Word text: 28 (confidence: 0.780000)
+
+Symbol text: ( (confidence: 0.910000)
+Word text: ( (confidence: 0.910000)
+
+Symbol text: 1 (confidence: 0.960000)
+Word text: 1 (confidence: 0.960000)
+
+Symbol text: ) (confidence: 0.980000)
+Word text: ) (confidence: 0.980000)
+
+Symbol text: o (confidence: 0.400000)
+Symbol text: f (confidence: 0.960000)
+Word text: of (confidence: 0.680000)
+
+Symbol text: C (confidence: 0.940000)
+Symbol text: A (confidence: 0.940000)
+Word text: CA (confidence: 0.940000)
+
+Symbol text: 1 (confidence: 0.990000)
+Symbol text: 9 (confidence: 0.990000)
+Symbol text: 6 (confidence: 0.990000)
+Symbol text: 2 (confidence: 0.990000)
+Word text: 1962 (confidence: 0.990000)
+
+Symbol text: f (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: r (confidence: 0.990000)
+Word text: for (confidence: 0.990000)
+
+Symbol text: t (confidence: 0.990000)
+Symbol text: h (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Word text: the (confidence: 0.990000)
+
+Symbol text: s (confidence: 0.990000)
+Symbol text: h (confidence: 0.990000)
+Symbol text: o (confidence: 1.000000)
+Symbol text: r (confidence: 1.000000)
+Symbol text: t (confidence: 1.000000)
+Word text: short (confidence: 0.990000)
+
+Symbol text: l (confidence: 0.990000)
+Symbol text: e (confidence: 1.000000)
+Symbol text: v (confidence: 0.990000)
+Symbol text: y (confidence: 0.990000)
+Word text: levy (confidence: 0.990000)
+
+Symbol text: d (confidence: 0.990000)
+Symbol text: u (confidence: 0.990000)
+Symbol text: t (confidence: 0.840000)
+Symbol text: y (confidence: 0.990000)
+Word text: duty (confidence: 0.950000)
+
+Symbol text: s (confidence: 0.990000)
+Symbol text: h (confidence: 0.990000)
+Symbol text: a (confidence: 1.000000)
+Symbol text: l (confidence: 0.990000)
+Symbol text: l (confidence: 1.000000)
+Word text: shall (confidence: 0.990000)
+
+Symbol text: b (confidence: 0.990000)
+Symbol text: e (confidence: 1.000000)
+Word text: be (confidence: 0.990000)
+
+Symbol text: p (confidence: 0.990000)
+Symbol text: a (confidence: 0.990000)
+Symbol text: y (confidence: 0.990000)
+Symbol text: a (confidence: 0.990000)
+Symbol text: b (confidence: 0.990000)
+Symbol text: l (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Word text: payable (confidence: 0.990000)
+
+Symbol text: b (confidence: 0.990000)
+Symbol text: y (confidence: 0.990000)
+Word text: by (confidence: 0.990000)
+
+Symbol text: y (confidence: 0.990000)
+Symbol text: o (confidence: 0.990000)
+Symbol text: u (confidence: 0.990000)
+Word text: you (confidence: 0.990000)
+
+Symbol text: 3 (confidence: 0.990000)
+Word text: 3 (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.990000)
+Word text: . (confidence: 0.990000)
+
+Symbol text: A (confidence: 0.990000)
+Symbol text: l (confidence: 1.000000)
+Symbol text: l (confidence: 0.990000)
+Word text: All (confidence: 0.990000)
+
+Symbol text: d (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Symbol text: l (confidence: 0.990000)
+Symbol text: a (confidence: 0.990000)
+Symbol text: y (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Symbol text: d (confidence: 1.000000)
+Word text: delayed (confidence: 0.990000)
+
+Symbol text: p (confidence: 0.990000)
+Symbol text: a (confidence: 0.990000)
+Symbol text: y (confidence: 0.990000)
+Symbol text: m (confidence: 0.990000)
+Symbol text: e (confidence: 1.000000)
+Symbol text: n (confidence: 1.000000)
+Symbol text: t (confidence: 1.000000)
+Symbol text: s (confidence: 1.000000)
+Word text: payments (confidence: 0.990000)
+
+Symbol text: w (confidence: 0.990000)
+Symbol text: i (confidence: 0.960000)
+Symbol text: l (confidence: 1.000000)
+Symbol text: l (confidence: 1.000000)
+Word text: will (confidence: 0.980000)
+
+Symbol text: a (confidence: 0.990000)
+Symbol text: t (confidence: 0.990000)
+Symbol text: t (confidence: 1.000000)
+Symbol text: r (confidence: 0.990000)
+Symbol text: a (confidence: 1.000000)
+Symbol text: c (confidence: 1.000000)
+Symbol text: t (confidence: 1.000000)
+Word text: attract (confidence: 0.990000)
+
+Symbol text: i (confidence: 0.990000)
+Symbol text: n (confidence: 1.000000)
+Symbol text: t (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Symbol text: r (confidence: 1.000000)
+Symbol text: e (confidence: 0.990000)
+Symbol text: s (confidence: 1.000000)
+Symbol text: t (confidence: 0.970000)
+Word text: interest (confidence: 0.990000)
+
+Symbol text: @ (confidence: 0.930000)
+Word text: @ (confidence: 0.930000)
+
+Symbol text: 1 (confidence: 0.910000)
+Symbol text: 8 (confidence: 0.910000)
+Word text: 18 (confidence: 0.910000)
+
+Symbol text: % (confidence: 0.870000)
+Word text: % (confidence: 0.870000)
+
+Symbol text: p (confidence: 0.910000)
+Word text: p (confidence: 0.910000)
+
+Symbol text: . (confidence: 0.870000)
+Word text: . (confidence: 0.870000)
+
+Symbol text: a (confidence: 0.990000)
+Word text: a (confidence: 0.990000)
+
+Symbol text: . (confidence: 0.270000)
+Word text: . (confidence: 0.270000)
+
+
+Paragraph: 
+ E . & O . E . 1 . Incase of any dispute on this bill , the same must be reported to us within 07 days from the receipt of bill and subject to Delhi jurisdiction only . 2 . Any notice of demand under Section 28 ( 1 ) of CA 1962 for the short levy duty shall be payable by you 3 . All delayed payments will attract interest @ 18 % p . a .
+Paragraph Confidence: 0.970000
+Symbol text: A (confidence: 0.800000)
+Symbol text: u (confidence: 0.380000)
+Symbol text: t (confidence: 0.970000)
+Symbol text: h (confidence: 0.970000)
+Symbol text: o (confidence: 0.650000)
+Symbol text: r (confidence: 0.780000)
+Symbol text: i (confidence: 0.970000)
+Symbol text: s (confidence: 0.850000)
+Symbol text: e (confidence: 0.980000)
+Symbol text: d (confidence: 0.990000)
+Word text: Authorised (confidence: 0.830000)
+
+Symbol text: S (confidence: 0.970000)
+Symbol text: i (confidence: 0.990000)
+Symbol text: g (confidence: 0.980000)
+Symbol text: n (confidence: 0.300000)
+Symbol text: a (confidence: 0.990000)
+Symbol text: t (confidence: 0.970000)
+Symbol text: o (confidence: 0.970000)
+Symbol text: r (confidence: 0.230000)
+Word text: Signator (confidence: 0.800000)
+
+
+Paragraph: 
+ Authorised Signator
+Paragraph Confidence: 0.810000
+Symbol text: R (confidence: 0.990000)
+Symbol text: e (confidence: 0.990000)
+Symbol text: g (confidence: 1.000000)
+Word text: Reg (confidence: 0.990000)
+
+Symbol text: O (confidence: 0.990000)
+Symbol text: f (confidence: 0.740000)
+Symbol text: f (confidence: 1.000000)
+Symbol text: i (confidence: 1.000000)
+Symbol text: c (confidence: 1.000000)
+Symbol text: e (confidence: 1.000000)
+Word text: Office (confidence: 0.950000)
+
+Symbol text: : (confidence: 0.950000)
+Word text: : (confidence: 0.950000)
+
+Symbol text: 1 (confidence: 0.940000)
+Symbol text: S (confidence: 0.810000)
+Symbol text: T (confidence: 0.970000)
+Word text: 1ST (confidence: 0.900000)
+
+Symbol text: F (confidence: 0.990000)
+Symbol text: L (confidence: 1.000000)
+Symbol text: O (confidence: 0.990000)
+Symbol text: O (confidence: 1.000000)
+Symbol text: R (confidence: 1.000000)
+Word text: FLOOR (confidence: 0.990000)
+
+Symbol text: , (confidence: 0.740000)
+Word text: , (confidence: 0.740000)
+
+Symbol text: H (confidence: 0.960000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: R (confidence: 0.990000)
+Symbol text: B (confidence: 0.960000)
+Symbol text: A (confidence: 0.970000)
+Symbol text: N (confidence: 0.990000)
+Symbol text: S (confidence: 0.990000)
+Word text: HARBANS (confidence: 0.970000)
+
+Symbol text: B (confidence: 0.990000)
+Symbol text: H (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: W (confidence: 0.990000)
+Symbol text: A (confidence: 1.000000)
+Symbol text: N (confidence: 1.000000)
+Word text: BHAWAN (confidence: 0.990000)
+
+Symbol text: - (confidence: 0.930000)
+Word text: - (confidence: 0.930000)
+
+Symbol text: 1 (confidence: 0.920000)
+Word text: 1 (confidence: 0.920000)
+
+Symbol text: , (confidence: 0.840000)
+Word text: , (confidence: 0.840000)
+
+Symbol text: N (confidence: 0.880000)
+Symbol text: E (confidence: 0.960000)
+Symbol text: A (confidence: 0.960000)
+Symbol text: R (confidence: 0.990000)
+Word text: NEAR (confidence: 0.940000)
+
+Symbol text: S (confidence: 0.970000)
+Symbol text: Y (confidence: 0.960000)
+Symbol text: N (confidence: 0.990000)
+Symbol text: D (confidence: 0.990000)
+Symbol text: I (confidence: 0.990000)
+Symbol text: C (confidence: 1.000000)
+Symbol text: A (confidence: 1.000000)
+Symbol text: T (confidence: 1.000000)
+Symbol text: E (confidence: 1.000000)
+Symbol text: B (confidence: 0.990000)
+Symbol text: A (confidence: 1.000000)
+Symbol text: N (confidence: 0.990000)
+Symbol text: K (confidence: 0.990000)
+Word text: SYNDICATEBANK (confidence: 0.990000)
+
+Symbol text: , (confidence: 0.940000)
+Word text: , (confidence: 0.940000)
+
+Symbol text: D (confidence: 0.980000)
+Symbol text: D (confidence: 0.950000)
+Symbol text: A (confidence: 0.980000)
+Word text: DDA (confidence: 0.970000)
+
+Symbol text: B (confidence: 0.990000)
+Symbol text: U (confidence: 0.990000)
+Symbol text: S (confidence: 0.990000)
+Symbol text: I (confidence: 0.990000)
+Symbol text: N (confidence: 1.000000)
+Symbol text: E (confidence: 1.000000)
+Symbol text: S (confidence: 1.000000)
+Symbol text: S (confidence: 1.000000)
+Word text: BUSINESS (confidence: 0.990000)
+
+Symbol text: C (confidence: 0.990000)
+Symbol text: O (confidence: 0.990000)
+Symbol text: M (confidence: 0.990000)
+Symbol text: P (confidence: 0.990000)
+Symbol text: L (confidence: 0.990000)
+Symbol text: E (confidence: 1.000000)
+Symbol text: X (confidence: 0.990000)
+Word text: COMPLEX (confidence: 0.990000)
+
+Symbol text: , (confidence: 0.990000)
+Word text: , (confidence: 0.990000)
+
+Symbol text: N (confidence: 0.990000)
+Symbol text: A (confidence: 0.990000)
+Symbol text: N (confidence: 0.990000)
+Symbol text: G (confidence: 0.990000)
+Symbol text: A (confidence: 1.000000)
+Symbol text: L (confidence: 0.990000)
+Word text: NANGAL (confidence: 0.990000)
+
+Symbol text: B (confidence: 0.470000)
+Symbol text: A (confidence: 0.560000)
+Symbol text: V (confidence: 0.530000)
+Symbol text: A (confidence: 0.950000)
+Word text: BAVA (confidence: 0.620000)
+
+Symbol text: / (confidence: 0.570000)
+Word text: / (confidence: 0.570000)
+
+Symbol text: D (confidence: 0.250000)
+Symbol text: E (confidence: 0.210000)
+Symbol text: N (confidence: 0.540000)
+Symbol text: D (confidence: 0.380000)
+Symbol text: E (confidence: 0.120000)
+Symbol text: L (confidence: 0.030000)
+Symbol text: H (confidence: 0.390000)
+Symbol text: I (confidence: 0.660000)
+Word text: DENDELHI (confidence: 0.320000)
+
+Symbol text: 1 (confidence: 0.580000)
+Symbol text: 1 (confidence: 0.900000)
+Symbol text: 0 (confidence: 0.910000)
+Symbol text: 0 (confidence: 0.960000)
+Symbol text: 4 (confidence: 0.950000)
+Symbol text: 6 (confidence: 0.960000)
+Word text: 110046 (confidence: 0.870000)
+
+Symbol text: . (confidence: 0.950000)
+Word text: . (confidence: 0.950000)
+
+
+Paragraph: 
+ Reg Office : 1ST FLOOR , HARBANS BHAWAN - 1 , NEAR SYNDICATEBANK , DDA BUSINESS COMPLEX , NANGAL BAVA / DENDELHI 110046 .
+Paragraph Confidence: 0.890000
+Symbol text: O (confidence: 0.060000)
+Word text: O (confidence: 0.060000)
+
+Symbol text: N (confidence: 0.230000)
+Symbol text: E (confidence: 0.140000)
+Symbol text: W (confidence: 0.790000)
+Word text: NEW (confidence: 0.380000)
+
+
+Paragraph: 
+ O NEW
+Paragraph Confidence: 0.300000
+
+Complete annotation:
+PROFESSIONAL IMPEX PVT LTD
+CHA NO. R647/CHN/(MSME: TN2E0005837)
+GSTIN.NO:07AACCP4978K12V /CATEGORY: CUSTOMS BROKER
+DOSYA
+Branch Off: 1ST FLOOR, HARBANS BHAWAN -1, NEAR SYNDICATE BANK, DDA BUSINESS COMPLEX, NANGAL RAYA, NEW DELHI - 110046. Tel. No.: 011-
+28524699 FAX NO.-011 28524696 Email:kamal@pigroup.in, Website:www.pigroup.in
+TAX INVOICE
+Original for Recipient
+Duplicate for Supplier
+Invoice No /Date
+18SB7211888 / Dt. 29/06/2018
+Bill To: (GSTIN :05AABCS9402N126)
+SHIRDI INDUSTRIES LIMITED
+PLOT NO.1,SECTOR 9,11 E PANT NAGAR DIST-UDHAMSINGHNAGAR,.,263153
+State UTTARAKHAND State Code :05
+Job No /Type /Mode
+1810955 /IMP /S
+Date Of Supply
+29/06/2018
+Place Of Supply
+UTTARAKHAND
+Awb/BL No
+EPIRCHNNGB251324 dt.22/05/2018
+Importer:
+SHIRDI INDUSTRIES LIMITED
+PLOT NO.1. SECTOR 9,11 E PANT NAGAR DIST-
+UDHAMSINGHNAGAR.UTTARAKHAND,263153
+BE NO
+6716228 dt.08/06/2018
+Assesable Value
+7807937.05
+Duty Amount
+1627251.00
+No of Cntr
+2 X 40 Ft-F
+Supplier :
+MIS. KINGDECOR (ZHEJIANG) CO.,LTD
+NO.20 SOUTH TIANHU ROAD, QUZHOU, ZHEJIANG
+324022
+CHINA
+Qty
+119 RLS/49992.000 KGS
+Party Ref
+Item:BARRIER PAPER (KD0046U) (100 GSM) (WIDTH OF ROLLS: 124 CMS) (UNCOATED) PO No/Date
+(FOR IMPREGNATION PURPOSE) (C
+Whether RCM is applicable ? (NO)
+SNO
+Descriptions
+HSN Qty UOMO Rate Amount CGST
+SGST
+IACS
+(Rs.)
+Code
+IGST
+(Rs.)
+Total
+(Rs.)
+Amt.
+Amt.
+Amt.
+Rate
+(%)
+Rate
+I %
+11 Nos
+11 Nos
+AGENCY CHARGES (TKD)
+TRANSPORT CHARGES
+EDI CHARGES
+CONCOR CHARGES NON-TAXABLE
+N-
+996712
+996511
+996712
+996712
+Rate
+(%)
+18.00
+12.00
+18.00
+11000,00
+68880.00
+100.00
+16284.00
+11000.00
+68880.00
+100.00
+16284.00
+1 Nos
+1980,00
+8265.60
+18.00
+12980.00
+77145.60
+118.00
+16284.00
+w
+A
+Nos
+Mls. Kingdleder theiiana Collde
+plo Nol: 440 dood GK
+Invoice Value (In Words)
+Rupees One Lakh Six Thousand Five Hundred and Twenty Eight only/-
+96264.00
+0.00
+Note
+Container No : DRYU9719868, ESPU8006160
+Total Amount Before Tax
+Add:CGST
+Add:SGST
+Add :IGST
+Total Amount GST
+0.00
+Supplier Inv No : 201805048
+10263.60
+10263.60
+106527.60
+VW
+Bank Details :
+BANK NAME :- IDBI BANK ,BRANCH:- VIJAY ENCLAVE DELHI-110045,ACCOUNT NO:-
+0169102000012209
+IFSCCode :IBKL0000169
+0.00
+Total Amount After Tax
+Payment Received
+Round Off Value
+Net Amount
+0.40
+106528.00
+(Common Seal)
+Certified that the particulars given above are true and correct.
+LMPEX PVT LTD
+E. & O.E.
+1.Incase of any dispute on this bill, the same must be reported to us within 07
+days from the receipt of bill and subject to Delhi jurisdiction only.
+2. Any notice of demand under Section 28(1) of CA 1962 for the short levy duty
+shall be payable by you
+3. All delayed payments will attract interest @ 18% p.a.
+Authorised Signator
+Reg Office : 1ST FLOOR, HARBANS BHAWAN -1, NEAR SYNDICATEBANK, DDA BUSINESS COMPLEX, NANGAL BAVA/DENDELHI 110046.
+O NEW
+
+
+Process finished with exit code 0
+

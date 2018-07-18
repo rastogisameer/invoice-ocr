@@ -15,13 +15,13 @@ import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.util.EntityUtils;
 import org.json.JSONObject;
 
-public class Main {
+public class AzureMain {
     // **********************************************
     // *** Update or verify the following values. ***
     // **********************************************
 
     // Replace <Subscription Key> with your valid subscription key.
-    private static final String subscriptionKey = "d18b99b523d04c57aec24d3eea43f0a0";
+    private static final String subscriptionKey = "cc1b1ce379234104b75d5cd6326835ab";
 
     // You must use the same region in your REST call as you used to get your
     // subscription keys. For example, if you got your subscription keys from
