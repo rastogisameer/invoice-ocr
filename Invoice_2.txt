@@ -1282,3 +1282,111 @@ Word text: 0070 (confidence: 0.3499999940395355)
 	Symbol: 0 (confidence: 0.1899999976158142)
 	Symbol: 7 (confidence: 0.4399999976158142)
 	Symbol: 0 (confidence: 0.7599999904632568)
+
+Block(0.9900000095367432)
+  Para(0.9900000095367432)
+    TAX INVOICE
+
+Block(0.9900000095367432)
+  Para(0.9900000095367432)
+    ( ORIGINAL FOR RECIPIENT )
+
+Block(0.9700000286102295)
+  Para(0.9700000286102295)
+    Invoice No . GICS / 18 - 19 / 64
+
+Block(0.9900000095367432)
+  Para(0.9900000095367432)
+    Dated 2 - Jul - 2018
+
+Block(0.9599999785423279)
+  Para(0.9700000286102295)
+    GLOBAL ICON CONSULTANCY SERVICES 113 , 1st Floor , Shree Krishna Commercial Center , Udyog Nagar 6 , Near MTNL , SV Road , Goregaon ( West ) , GSTIN / UIN : 27CBNPP6054M1ZW Contact : 022 28769245 / 28769234 , + 91 - 7045833881 E - Mail : accounts @ giconsultancy . Com www . giconsultancy . com Buyer SHIRDI INDUSTRIES LTD PLOT NO : 1 , SECTOR NO 9 , 11E , SIDCUL PANTNAGAR , State Name : Uttarakhand , Code : 05 GSTIN / UIN
+  Para(0.9100000262260437)
+    : 05AABCS9402N1Z6
+
+Block(0.9900000095367432)
+  Para(0.9900000095367432)
+    Particulars
+
+Block(0.9900000095367432)
+  Para(0.9900000095367432)
+    ulars
+
+Block(0.949999988079071)
+  Para(0.949999988079071)
+    HSN / SAC
+
+Block(0.9900000095367432)
+  Para(0.9900000095367432)
+    Amount
+
+Block(0.9900000095367432)
+  Para(0.9900000095367432)
+    9982
+
+Block(0.9800000190734863)
+  Para(0.9800000190734863)
+    6 , 000 . 00
+
+Block(0.9800000190734863)
+  Para(0.9800000190734863)
+    Consultancy Charges FOR THE MONTH OF JUNE 2018 IGST @ 18 %
+
+Block(0.9900000095367432)
+  Para(0.9900000095367432)
+    1 , 080 . 00
+
+Block(0.46000000834465027)
+  Para(0.46000000834465027)
+    Ok . Taki moment en les
+
+Block(0.9900000095367432)
+  Para(0.9900000095367432)
+    Total
+
+Block(0.8500000238418579)
+  Para(0.9399999976158142)
+    7 , 080 . 00
+  Para(0.7200000286102295)
+    E . & O . E
+
+Block(0.9800000190734863)
+  Para(0.9800000190734863)
+    Amount Chargeable ( in words ) INR Seven Thousand Eighty Only
+
+Block(0.9700000286102295)
+  Para(0.9700000286102295)
+    HSN / SAC
+
+Block(0.9900000095367432)
+  Para(0.9900000095367432)
+    Taxable Value 6 , 000 . 00 6 , 000 . 00
+
+Block(0.9900000095367432)
+  Para(0.9900000095367432)
+    9982
+
+Block(0.9900000095367432)
+  Para(0.9900000095367432)
+    Total
+
+Block(0.9800000190734863)
+  Para(0.9800000190734863)
+    Tax Amount ( in words ) : NIL
+
+Block(0.949999988079071)
+  Para(0.9300000071525574)
+    Company ' s PAN : CBNPP6054M
+  Para(0.9800000190734863)
+    for GLOBAL ICON CONSULTANCY SERVICES Declaration We declare that this invoice shows the actual price of the Service described and that all particulars are true and correct .
+  Para(0.8899999856948853)
+    122 Authorisedelgnatory SUBJECT TO MUMBAI JURISDICTION This is a Computer Generated Invoice
+
+Block(0.5600000023841858)
+  Para(0.5600000023841858)
+    181 MUMBAI
+
+Block(0.3499999940395355)
+  Para(0.3499999940395355)
+    0070

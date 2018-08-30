@@ -2115,3 +2115,99 @@ Word text: AAACM6427C (confidence: 0.9399999976158142)
 	Symbol: 2 (confidence: 1.0)
 	Symbol: 7 (confidence: 0.9900000095367432)
 	Symbol: C (confidence: 0.6100000143051147)
+
+Block(0.9900000095367432)
+  Para(0.9900000095367432)
+    TAX INVOICE
+
+Block(0.9300000071525574)
+  Para(0.9300000071525574)
+    tikOna
+
+Block(0.8299999833106995)
+  Para(0.8299999833106995)
+    ENTESPRE ROLUTIONS
+
+Block(0.9700000286102295)
+  Para(0.9700000286102295)
+    Billing Account Number : 120307066 Shirdi Industries Ltd 2nd Floor , Mhatre Pen Building , Sena pati Bapat Marg , Dadar West , Mumbai - 400028 , MH ( 27 ) . GST / UIN Registration No : 27AABCS9402N176 Bill Number : MH / 2018 - 19 / 0387 Billing Period : 08 - 03 - 2018 To 30 - 06 - 2018 Bill Date : 01 - 04 - 2018 Due Date : 30 - 04 - 2018 BILL DETAILS Sr . No Charge Head
+  Para(0.9800000190734863)
+    Installation Charges Internet Lease Connection Total ( A ) CGST ( 9 % ) ( B ) SGST / UTGST ( 9 % ) ( C ) Total Tax ( D ) Current Bill Amount ( E ) = ( A + D ) Previous Dues ( F ) Payments ( G ) Total Amount Due ( H ) = ( E + F - G )
+
+Block(0.9900000095367432)
+  Para(0.9900000095367432)
+    Qty
+
+Block(0.8899999856948853)
+  Para(0.8799999952316284)
+    Price Per Month
+  Para(0.9100000262260437)
+    0 . 00 2 , 916 . 67
+
+Block(0.15000000596046448)
+  Para(0.15000000596046448)
+    -
+
+Block(0.6700000166893005)
+  Para(0.6700000166893005)
+    1
+
+Block(0.7099999785423279)
+  Para(0.7099999785423279)
+    N
+
+Block(0.07000000029802322)
+  Para(0.07000000029802322)
+    v
+
+Block(0.11999999731779099)
+  Para(0.11999999731779099)
+    =
+
+Block(0.9800000190734863)
+  Para(0.949999988079071)
+    Amount ( Rs . )
+  Para(0.9800000190734863)
+    0 . 00 11 , 008 . 06 11 , 008 . 06
+  Para(0.9900000095367432)
+    990 . 73
+  Para(0.9900000095367432)
+    990 . 73 1 , 981 . 46 12 , 989 . 52
+  Para(0.9800000190734863)
+    0 . 00
+  Para(0.9800000190734863)
+    0 . 00 12 , 989 . 52
+
+Block(0.23999999463558197)
+  Para(0.23999999463558197)
+    n
+
+Block(0.9800000190734863)
+  Para(0.9800000190734863)
+    Installation Address : 2Nd Floor , Mhatre Pen Building , Senapati Bapat Marg , Dadar West , Mumbai - 400028 . MH ( 27 ) PO Number : NIL
+
+Block(0.9800000190734863)
+  Para(0.9800000190734863)
+    Service Tax Category : Internet Telecommunication Service ( HSN : - 9984 ) Service Description : Internet Bandwidth : 8 Mbps ( 1 : 1 ) Terms & Conditions : 1 . Payment Terms : Quarterly in advance of Period . 2 . Please make all payments via Crossed Cheque , Demand Draft or Pay Order payable at
+  Para(0.9800000190734863)
+    Mumbai and made out to " Tikona Infinet Pvt Limited ” . 3 . All Banks and Realization Charges to be borne by the Customer . 4 . Any payments already done will be reflected in the next invoice . 5 . Bank Details For Payment : - HDFC Bank Ltd A / c No . 57500000005658 , IFSC code HDFC0000060 , MICR 400240015
+  Para(0.9900000095367432)
+    " Original for recipient , Duplicate for supplier "
+  Para(0.9700000286102295)
+    Supplies not liable under reverse charge ' Tikona State Office : 3A , Corpora , Lbs Marg , Bhandup West , Mumbai City , Maharashtra , Maharashtra - 400078 Tikona GST Registration No : 27AAACM6427C1ZR
+
+Block(0.9900000095367432)
+  Para(0.9900000095367432)
+    For Tikona Infinet Private Limited
+
+Block(0.30000001192092896)
+  Para(0.30000001192092896)
+    gidemens
+
+Block(0.9900000095367432)
+  Para(0.9900000095367432)
+    Authorized Signatory
+
+Block(0.9700000286102295)
+  Para(0.9700000286102295)
+    Corporate Office : ' Corpora ' Office No 3A , 3rd Floor , LBS Marg , Bhandup ( West ) , Mumbai - 400 078 , CIN : U74899MH1975PTC265837 , PAN : AAACM6427C

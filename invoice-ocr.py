@@ -49,32 +49,9 @@ def detect_text(path):
 # [END def_detect_text]
 
 
-# [START def_detect_properties]
-def detect_properties(path):
-    """Detects image properties in the file."""
-    client = vision.ImageAnnotatorClient()
-
-    # [START migration_image_properties]
-    with io.open(path, 'rb') as image_file:
-        content = image_file.read()
-
-    image = vision.types.Image(content=content)
-
-    response = client.image_properties(image=image)
-    props = response.image_properties_annotation
-    print('Properties:')
-
-    for color in props.dominant_colors.colors:
-        print('fraction: {}'.format(color.pixel_fraction))
-        print('\tr: {}'.format(color.color.red))
-        print('\tg: {}'.format(color.color.green))
-        print('\tb: {}'.format(color.color.blue))
-        print('\ta: {}'.format(color.color.alpha))
-    # [END migration_image_properties]
-# [END def_detect_properties]
 
 # [START def_detect_document]
-def detect_document(path):
+def detect_blocks(path):
     """Detects document features in an image."""
     client = vision.ImageAnnotatorClient()
 
@@ -88,26 +65,29 @@ def detect_document(path):
 
     for page in response.full_text_annotation.pages:
         for block in page.blocks:
-            print('\nBlock confidence: {}\n'.format(block.confidence))
-
+            print('\nBlock({})'.format(block.confidence))
+            
             for paragraph in block.paragraphs:
 
-                print('Paragraph confidence: {}'.format(
+                word_list = []
+                print('  Para({})'.format(
                     paragraph.confidence))
 
                 for word in paragraph.words:
                     word_text = ''.join([
                         symbol.text for symbol in word.symbols
                     ])
-                    print('Word text: {} (confidence: {})'.format(
-                        word_text, word.confidence))
-
-                    for symbol in word.symbols:
+                    '''print('    Word: {} ({})'.format(word_text, word.confidence))'''
+                    word_list.append(word_text)
+                    '''for symbol in word.symbols:
                         print('\tSymbol: {} (confidence: {})'.format(
-                            symbol.text, symbol.confidence))
+                            symbol.text, symbol.confidence))'''
+                para_str = ' '.join([w for w in word_list])
+                print('    ' + para_str)
     # [END migration_document_text_detection]
 # [END def_detect_document]
 
 
+
 if __name__ == '__main__':
-    detect_document('/home/sameer/data/invoices/pages/png/Invoice_4.png')
+    detect_blocks('/home/sameer/data/invoices/pages/png/Invoice_3.png')

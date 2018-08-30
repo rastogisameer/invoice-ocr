@@ -1039,3 +1039,109 @@ Word text: . (confidence: 0.9900000095367432)
 Word text: 00 (confidence: 0.9900000095367432)
 	Symbol: 0 (confidence: 0.9900000095367432)
 	Symbol: 0 (confidence: 1.0)
+
+Block(0.9599999785423279)
+  Para(0.9399999976158142)
+    Khajanchi ' s
+  Para(0.9599999785423279)
+    CIN : Reg . Off . : 23 / 25 M . D . Chawl , Mc Jawle Marg Dadar ( W ) , Mumbai
+  Para(0.949999988079071)
+    Email : Web : Phone : 24223608 / 24221694 Branch : 23 / 25 , M . D . Chawl , M . C . Jawle Marg , Mumbai - 400028
+  Para(0.9700000286102295)
+    Branch Phone : PAN NO : AAKFM4706F GSTIN NO : 27AAKFM4706F1ZB
+  Para(0.9599999785423279)
+    Tax - Invoice
+
+Block(0.9100000262260437)
+  Para(0.9100000262260437)
+    Order No LR NO
+
+Block(0.07000000029802322)
+  Para(0.07000000029802322)
+    ,
+
+Block(0.9200000166893005)
+  Para(0.9700000286102295)
+    Invoice To : Shirdi Industries
+  Para(0.8700000047683716)
+    2nd Fl ; ; A - Wing : ; Mahatre Pen Bldg : ;
+  Para(0.9200000166893005)
+    S . B . Rd ; ; Dadar , 400028 GSTIN No . : 27AABCS9402N3ZY Category Biscuits / Bakery Products and others Alc - Cat : Cr . Sales - General Narration
+
+Block(0.9300000071525574)
+  Para(0.9300000071525574)
+    Vouch No Date Bill No Cr - Days D - Ship Ord . Date
+
+Block(0.8399999737739563)
+  Para(0.8500000238418579)
+    : 173 : 06 - 07 - 18 : 172
+  Para(0.7900000214576721)
+    365 : No
+
+Block(0.9800000190734863)
+  Para(0.9800000190734863)
+    Vehicle No Gross Wt . Net Wt .
+
+Block(0.9800000190734863)
+  Para(0.9800000190734863)
+    Transporter
+
+Block(0.9300000071525574)
+  Para(0.9300000071525574)
+    : GST SUMMARY Taxable - Amt GST CGST
+
+Block(0.9900000095367432)
+  Para(0.9900000095367432)
+    SGST
+
+Block(0.949999988079071)
+  Para(0.949999988079071)
+    CESS NET AMT .
+
+Block(0.9800000190734863)
+  Para(0.9800000190734863)
+    Tax Type GST 5 % GST 12 % GST 18 %
+
+Block(0.9800000190734863)
+  Para(0.9800000190734863)
+    2404 . 95 1116 . 07 1126 . 23
+
+Block(0.9900000095367432)
+  Para(0.9900000095367432)
+    120 . 25 133 . 93 202 . 72
+
+Block(0.9800000190734863)
+  Para(0.9800000190734863)
+    60 . 12 66 . 96 101 . 36
+
+Block(0.9800000190734863)
+  Para(0.9800000190734863)
+    60 . 12 66 . 96 101 . 36
+
+Block(0.9800000190734863)
+  Para(0.9800000190734863)
+    2525 . 00 1250 . 00 1329 . 00
+
+Block(0.5400000214576721)
+  Para(0.5400000214576721)
+    - - - - -
+
+Block(0.9900000095367432)
+  Para(0.9900000095367432)
+    4647 . 25
+
+Block(0.9200000166893005)
+  Para(0.9200000166893005)
+    456 . 90
+
+Block(0.9300000071525574)
+  Para(0.9300000071525574)
+    228 . 44
+
+Block(0.9399999976158142)
+  Para(0.9399999976158142)
+    228 . 44
+
+Block(0.9900000095367432)
+  Para(0.9900000095367432)
+    5104 . 00
