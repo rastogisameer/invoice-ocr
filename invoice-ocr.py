@@ -90,4 +90,4 @@ def detect_blocks(path):
 
 
 if __name__ == '__main__':
-    detect_blocks('/home/sameer/data/invoices/pages/png/Invoice_3.png')
+    detect_blocks('/home/sameer/data/invoices/pages/png/Invoice_4.png')
